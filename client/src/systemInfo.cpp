@@ -20,6 +20,7 @@ QString get_os_name()
     return product_type + " " + product_version;
 }
 
+
 QString get_total_memory()
 {
 #ifdef _WIN32
@@ -27,7 +28,7 @@ QString get_total_memory()
     memory1.dwLength = sizeof(memory1);
     if (GlobalMemoryStatusEx(&memory1))
     {
-        return QString::number(memory1.ullPhys / (1024.0 * 1024 * 1024), 'f', 2) + " Gb";
+        return QString::number(memory1.ullTotalPhys / (1024.0 * 1024 * 1024), 'f', 2) + " Gb";
     }
 #else
     return "";
