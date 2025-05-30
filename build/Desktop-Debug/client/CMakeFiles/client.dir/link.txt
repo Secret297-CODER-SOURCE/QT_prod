@@ -1,0 +1,1 @@
+/usr/bin/g++ -DQT_QML_DEBUG -g -Wl,--dependency-file=CMakeFiles/client.dir/link.d CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o CMakeFiles/client.dir/main.cpp.o CMakeFiles/client.dir/src/client.cpp.o CMakeFiles/client.dir/src/systemInfo.cpp.o -o client  /usr/lib/libQt6Network.so.6.9.0 /usr/lib/libQt6Core.so.6.9.0

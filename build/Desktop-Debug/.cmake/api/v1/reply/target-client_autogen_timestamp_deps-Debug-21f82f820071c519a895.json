@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"client/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "client_autogen_timestamp_deps::@b0c487aac068df482bf0",
+	"isGeneratorProvided" : true,
+	"name" : "client_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "client",
+		"source" : "client"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
