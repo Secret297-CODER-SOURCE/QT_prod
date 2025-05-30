@@ -1,4 +1,4 @@
-# Install script for directory: /home/Artem/Downloads/Telegram Desktop/semblance/server
+# Install script for directory: /home/saloedus/Documents/GitHub/QT_prod/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/server")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -61,6 +61,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/install_local_manifest.txt"
+  file(WRITE "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,5 +1,5 @@
-/home/Artem/Downloads/Telegram\ Desktop/semblance/build/Desktop-Debug/server/server_autogen/6YEA5652QU/moc_server.cpp: /home/Artem/Downloads/Telegram\ Desktop/semblance/server/include/server.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/build/Desktop-Debug/server/server_autogen/moc_predefs.h \
+/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/server_autogen/6YEA5652QU/moc_server.cpp: /home/saloedus/Documents/GitHub/QT_prod/server/include/server.h \
+  /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/server_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

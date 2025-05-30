@@ -3,13 +3,13 @@
 
 server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   server/server_autogen/moc_predefs.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/CMakeLists.txt \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/include/server.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/main.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.ui \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/src/server.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/server/CMakeLists.txt \
+  /home/saloedus/Documents/GitHub/QT_prod/server/include/server.h \
+  /home/saloedus/Documents/GitHub/QT_prod/server/main.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.h \
+  /home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.ui \
+  /home/saloedus/Documents/GitHub/QT_prod/server/src/server.cpp \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -280,6 +280,7 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/include/qt6/QtCore/q20type_traits.h \
   /usr/include/qt6/QtCore/q20utility.h \
   /usr/include/qt6/QtCore/q23utility.h \
+  /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
   /usr/include/qt6/QtCore/qalgorithms.h \
   /usr/include/qt6/QtCore/qanystringview.h \
   /usr/include/qt6/QtCore/qarraydata.h \
@@ -289,6 +290,7 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/include/qt6/QtCore/qatomic.h \
   /usr/include/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/qt6/QtCore/qbasicatomic.h \
+  /usr/include/qt6/QtCore/qbasictimer.h \
   /usr/include/qt6/QtCore/qbindingstorage.h \
   /usr/include/qt6/QtCore/qbytearray.h \
   /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -305,10 +307,16 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/include/qt6/QtCore/qcontainerinfo.h \
   /usr/include/qt6/QtCore/qcontainertools_impl.h \
   /usr/include/qt6/QtCore/qcontiguouscache.h \
+  /usr/include/qt6/QtCore/qcoreapplication.h \
+  /usr/include/qt6/QtCore/qcoreapplication_platform.h \
+  /usr/include/qt6/QtCore/qcoreevent.h \
   /usr/include/qt6/QtCore/qdarwinhelpers.h \
   /usr/include/qt6/QtCore/qdatastream.h \
+  /usr/include/qt6/QtCore/qdeadlinetimer.h \
   /usr/include/qt6/QtCore/qdebug.h \
+  /usr/include/qt6/QtCore/qelapsedtimer.h \
   /usr/include/qt6/QtCore/qendian.h \
+  /usr/include/qt6/QtCore/qeventloop.h \
   /usr/include/qt6/QtCore/qexceptionhandling.h \
   /usr/include/qt6/QtCore/qflags.h \
   /usr/include/qt6/QtCore/qfloat16.h \
@@ -327,6 +335,7 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/include/qt6/QtCore/qlatin1stringview.h \
   /usr/include/qt6/QtCore/qline.h \
   /usr/include/qt6/QtCore/qlist.h \
+  /usr/include/qt6/QtCore/qlocale.h \
   /usr/include/qt6/QtCore/qlogging.h \
   /usr/include/qt6/QtCore/qmalloc.h \
   /usr/include/qt6/QtCore/qmap.h \
@@ -336,6 +345,7 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/include/qt6/QtCore/qmetatype.h \
   /usr/include/qt6/QtCore/qminmax.h \
   /usr/include/qt6/QtCore/qnamespace.h \
+  /usr/include/qt6/QtCore/qnativeinterface.h \
   /usr/include/qt6/QtCore/qnumeric.h \
   /usr/include/qt6/QtCore/qobject.h \
   /usr/include/qt6/QtCore/qobject_impl.h \
@@ -393,6 +403,7 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
@@ -408,17 +419,22 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/include/qt6/QtGui/qfontinfo.h \
   /usr/include/qt6/QtGui/qfontmetrics.h \
   /usr/include/qt6/QtGui/qfontvariableaxis.h \
+  /usr/include/qt6/QtGui/qguiapplication.h \
+  /usr/include/qt6/QtGui/qguiapplication_platform.h \
   /usr/include/qt6/QtGui/qicon.h \
   /usr/include/qt6/QtGui/qimage.h \
+  /usr/include/qt6/QtGui/qinputmethod.h \
   /usr/include/qt6/QtGui/qkeysequence.h \
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
   /usr/include/qt6/QtGui/qregion.h \
   /usr/include/qt6/QtGui/qrgb.h \
   /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
   /usr/include/qt6/QtGui/qtgui-config.h \
   /usr/include/qt6/QtGui/qtguiexports.h \
   /usr/include/qt6/QtGui/qtguiglobal.h \
@@ -433,9 +449,25 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/include/qt6/QtNetwork/qtnetwork-config.h \
   /usr/include/qt6/QtNetwork/qtnetworkexports.h \
   /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
+  /usr/include/qt6/QtWidgets/QApplication \
+  /usr/include/qt6/QtWidgets/QLabel \
   /usr/include/qt6/QtWidgets/QMainWindow \
+  /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QStackedWidget \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
+  /usr/include/qt6/QtWidgets/QWidget \
+  /usr/include/qt6/QtWidgets/qabstractbutton.h \
+  /usr/include/qt6/QtWidgets/qapplication.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
+  /usr/include/qt6/QtWidgets/qstackedwidget.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
@@ -599,10 +631,6 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
@@ -611,10 +639,6 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
@@ -635,10 +659,6 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMngPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
@@ -655,14 +675,6 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginAdditionalTargetInfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake \
@@ -679,22 +691,6 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
   /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
@@ -801,9 +797,9 @@ server/server_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/share/cmake/Modules/GNUInstallDirs.cmake \
   /usr/share/cmake/Modules/MacroAddFileDependencies.cmake
 
-server/CMakeFiles/server.dir/main.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/server/main.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/include/server.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.h \
+server/CMakeFiles/server.dir/main.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/server/main.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/server/include/server.h \
+  /home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1216,6 +1212,7 @@ server/CMakeFiles/server.dir/main.cpp.o: /home/Artem/Downloads/Telegram\ Desktop
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
@@ -1239,12 +1236,14 @@ server/CMakeFiles/server.dir/main.cpp.o: /home/Artem/Downloads/Telegram\ Desktop
   /usr/include/qt6/QtGui/qkeysequence.h \
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
   /usr/include/qt6/QtGui/qregion.h \
   /usr/include/qt6/QtGui/qrgb.h \
   /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
   /usr/include/qt6/QtGui/qtgui-config.h \
   /usr/include/qt6/QtGui/qtguiexports.h \
   /usr/include/qt6/QtGui/qtguiglobal.h \
@@ -1260,10 +1259,24 @@ server/CMakeFiles/server.dir/main.cpp.o: /home/Artem/Downloads/Telegram\ Desktop
   /usr/include/qt6/QtNetwork/qtnetworkexports.h \
   /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
   /usr/include/qt6/QtWidgets/QApplication \
+  /usr/include/qt6/QtWidgets/QLabel \
   /usr/include/qt6/QtWidgets/QMainWindow \
+  /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QStackedWidget \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
+  /usr/include/qt6/QtWidgets/QWidget \
+  /usr/include/qt6/QtWidgets/qabstractbutton.h \
   /usr/include/qt6/QtWidgets/qapplication.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
+  /usr/include/qt6/QtWidgets/qstackedwidget.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
@@ -1289,9 +1302,9 @@ server/CMakeFiles/server.dir/main.cpp.o: /home/Artem/Downloads/Telegram\ Desktop
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
-server/CMakeFiles/server.dir/mainwindow.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.cpp \
+server/CMakeFiles/server.dir/mainwindow.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.cpp \
   server/server_autogen/include/ui_mainwindow.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.h \
+  /home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1628,6 +1641,7 @@ server/CMakeFiles/server.dir/mainwindow.cpp.o: /home/Artem/Downloads/Telegram\ D
   /usr/include/qt6/QtCore/qglobalstatic.h \
   /usr/include/qt6/QtCore/qhash.h \
   /usr/include/qt6/QtCore/qhashfunctions.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qiterable.h \
   /usr/include/qt6/QtCore/qiterator.h \
@@ -1702,6 +1716,7 @@ server/CMakeFiles/server.dir/mainwindow.cpp.o: /home/Artem/Downloads/Telegram\ D
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
@@ -1725,29 +1740,48 @@ server/CMakeFiles/server.dir/mainwindow.cpp.o: /home/Artem/Downloads/Telegram\ D
   /usr/include/qt6/QtGui/qkeysequence.h \
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
   /usr/include/qt6/QtGui/qregion.h \
   /usr/include/qt6/QtGui/qrgb.h \
   /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextcursor.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtGui/qtextformat.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
   /usr/include/qt6/QtGui/qtgui-config.h \
   /usr/include/qt6/QtGui/qtguiexports.h \
   /usr/include/qt6/QtGui/qtguiglobal.h \
   /usr/include/qt6/QtGui/qtransform.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
   /usr/include/qt6/QtWidgets/QApplication \
+  /usr/include/qt6/QtWidgets/QLabel \
+  /usr/include/qt6/QtWidgets/QLineEdit \
   /usr/include/qt6/QtWidgets/QMainWindow \
-  /usr/include/qt6/QtWidgets/QMenuBar \
-  /usr/include/qt6/QtWidgets/QStatusBar \
+  /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QStackedWidget \
+  /usr/include/qt6/QtWidgets/QTextEdit \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
   /usr/include/qt6/QtWidgets/QWidget \
+  /usr/include/qt6/QtWidgets/qabstractbutton.h \
+  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
   /usr/include/qt6/QtWidgets/qapplication.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
+  /usr/include/qt6/QtWidgets/qlineedit.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
-  /usr/include/qt6/QtWidgets/qmenu.h \
-  /usr/include/qt6/QtWidgets/qmenubar.h \
+  /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
-  /usr/include/qt6/QtWidgets/qstatusbar.h \
+  /usr/include/qt6/QtWidgets/qstackedwidget.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
+  /usr/include/qt6/QtWidgets/qtextedit.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
   /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -1773,9 +1807,9 @@ server/CMakeFiles/server.dir/mainwindow.cpp.o: /home/Artem/Downloads/Telegram\ D
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
 server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/server_autogen/mocs_compilation.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/include/server.h \
+  /home/saloedus/Documents/GitHub/QT_prod/server/include/server.h \
   server/server_autogen/6YEA5652QU/moc_server.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.h \
+  /home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.h \
   server/server_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -2068,6 +2102,7 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/include/qt6/QtCore/q20utility.h \
   /usr/include/qt6/QtCore/q23type_traits.h \
   /usr/include/qt6/QtCore/q23utility.h \
+  /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
   /usr/include/qt6/QtCore/qalgorithms.h \
   /usr/include/qt6/QtCore/qanystringview.h \
   /usr/include/qt6/QtCore/qarraydata.h \
@@ -2077,6 +2112,7 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/include/qt6/QtCore/qatomic.h \
   /usr/include/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/qt6/QtCore/qbasicatomic.h \
+  /usr/include/qt6/QtCore/qbasictimer.h \
   /usr/include/qt6/QtCore/qbindingstorage.h \
   /usr/include/qt6/QtCore/qbytearray.h \
   /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -2093,10 +2129,16 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/include/qt6/QtCore/qcontainerinfo.h \
   /usr/include/qt6/QtCore/qcontainertools_impl.h \
   /usr/include/qt6/QtCore/qcontiguouscache.h \
+  /usr/include/qt6/QtCore/qcoreapplication.h \
+  /usr/include/qt6/QtCore/qcoreapplication_platform.h \
+  /usr/include/qt6/QtCore/qcoreevent.h \
   /usr/include/qt6/QtCore/qdarwinhelpers.h \
   /usr/include/qt6/QtCore/qdatastream.h \
+  /usr/include/qt6/QtCore/qdeadlinetimer.h \
   /usr/include/qt6/QtCore/qdebug.h \
+  /usr/include/qt6/QtCore/qelapsedtimer.h \
   /usr/include/qt6/QtCore/qendian.h \
+  /usr/include/qt6/QtCore/qeventloop.h \
   /usr/include/qt6/QtCore/qexceptionhandling.h \
   /usr/include/qt6/QtCore/qflags.h \
   /usr/include/qt6/QtCore/qfloat16.h \
@@ -2115,6 +2157,7 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/include/qt6/QtCore/qlatin1stringview.h \
   /usr/include/qt6/QtCore/qline.h \
   /usr/include/qt6/QtCore/qlist.h \
+  /usr/include/qt6/QtCore/qlocale.h \
   /usr/include/qt6/QtCore/qlogging.h \
   /usr/include/qt6/QtCore/qmalloc.h \
   /usr/include/qt6/QtCore/qmap.h \
@@ -2124,6 +2167,7 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/include/qt6/QtCore/qmetatype.h \
   /usr/include/qt6/QtCore/qminmax.h \
   /usr/include/qt6/QtCore/qnamespace.h \
+  /usr/include/qt6/QtCore/qnativeinterface.h \
   /usr/include/qt6/QtCore/qnumeric.h \
   /usr/include/qt6/QtCore/qobject.h \
   /usr/include/qt6/QtCore/qobject_impl.h \
@@ -2183,6 +2227,7 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
@@ -2198,17 +2243,26 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/include/qt6/QtGui/qfontinfo.h \
   /usr/include/qt6/QtGui/qfontmetrics.h \
   /usr/include/qt6/QtGui/qfontvariableaxis.h \
+  /usr/include/qt6/QtGui/qguiapplication.h \
+  /usr/include/qt6/QtGui/qguiapplication_platform.h \
   /usr/include/qt6/QtGui/qicon.h \
   /usr/include/qt6/QtGui/qimage.h \
+  /usr/include/qt6/QtGui/qinputmethod.h \
   /usr/include/qt6/QtGui/qkeysequence.h \
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
   /usr/include/qt6/QtGui/qregion.h \
   /usr/include/qt6/QtGui/qrgb.h \
   /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextcursor.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtGui/qtextformat.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
   /usr/include/qt6/QtGui/qtgui-config.h \
   /usr/include/qt6/QtGui/qtguiexports.h \
   /usr/include/qt6/QtGui/qtguiglobal.h \
@@ -2223,9 +2277,25 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/include/qt6/QtNetwork/qtnetwork-config.h \
   /usr/include/qt6/QtNetwork/qtnetworkexports.h \
   /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
+  /usr/include/qt6/QtWidgets/QApplication \
+  /usr/include/qt6/QtWidgets/QLabel \
   /usr/include/qt6/QtWidgets/QMainWindow \
+  /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QStackedWidget \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
+  /usr/include/qt6/QtWidgets/QWidget \
+  /usr/include/qt6/QtWidgets/qabstractbutton.h \
+  /usr/include/qt6/QtWidgets/qapplication.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
   /usr/include/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
+  /usr/include/qt6/QtWidgets/qstackedwidget.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
@@ -2251,8 +2321,8 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
-server/CMakeFiles/server.dir/src/server.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/server/src/server.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/server/include/server.h \
+server/CMakeFiles/server.dir/src/server.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/server/src/server.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/server/include/server.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2763,6 +2833,37 @@ server/server: /usr/lib/Scrt1.o \
   /usr/lib/libxkbcommon.so.0 \
   /usr/lib/libz.so.1 \
   /usr/lib/libzstd.so.1 \
+  /usr/lib32/libGLdispatch.so.0 \
+  /usr/lib32/libXau.so.6 \
+  /usr/lib32/libXdmcp.so.6 \
+  /usr/lib32/libblkid.so.1 \
+  /usr/lib32/libbrotlicommon.so.1 \
+  /usr/lib32/libbz2.so.1.0 \
+  /usr/lib32/libcap.so.2 \
+  /usr/lib32/libcom_err.so.2 \
+  /usr/lib32/libcurl.so.4 \
+  /usr/lib32/libexpat.so.1 \
+  /usr/lib32/libffi.so.8 \
+  /usr/lib32/libgio-2.0.so.0 \
+  /usr/lib32/libgmodule-2.0.so.0 \
+  /usr/lib32/libgobject-2.0.so.0 \
+  /usr/lib32/libgomp.so.1 \
+  /usr/lib32/libicudata.so.76 \
+  /usr/lib32/libidn2.so.0 \
+  /usr/lib32/libk5crypto.so.3 \
+  /usr/lib32/libkeyutils.so.1 \
+  /usr/lib32/libkrb5.so.3 \
+  /usr/lib32/libkrb5support.so.0 \
+  /usr/lib32/libmount.so.1 \
+  /usr/lib32/libnghttp2.so.14 \
+  /usr/lib32/libnghttp3.so.9 \
+  /usr/lib32/libpcre2-8.so.0 \
+  /usr/lib32/libpsl.so.5 \
+  /usr/lib32/libresolv.so.2 \
+  /usr/lib32/libssh2.so.1 \
+  /usr/lib32/libssl.so.3 \
+  /usr/lib32/libunistring.so.5 \
+  /usr/lib32/libxcb.so.1 \
   server/CMakeFiles/server.dir/main.cpp.o \
   server/CMakeFiles/server.dir/mainwindow.cpp.o \
   server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o \
@@ -2770,6 +2871,32 @@ server/server: /usr/lib/Scrt1.o \
 
 
 server/CMakeFiles/server.dir/main.cpp.o:
+
+/usr/lib32/libresolv.so.2:
+
+/usr/lib32/libmount.so.1:
+
+/usr/lib32/libkrb5support.so.0:
+
+/usr/lib32/libkrb5.so.3:
+
+/usr/lib32/libkeyutils.so.1:
+
+/usr/lib32/libk5crypto.so.3:
+
+/usr/lib32/libgomp.so.1:
+
+/usr/lib32/libgio-2.0.so.0:
+
+/usr/lib32/libcom_err.so.2:
+
+/usr/lib32/libbrotlicommon.so.1:
+
+/usr/lib32/libblkid.so.1:
+
+/usr/lib32/libidn2.so.0:
+
+/usr/lib32/libGLdispatch.so.0:
 
 /usr/lib/libz.so.1:
 
@@ -2786,6 +2913,8 @@ server/CMakeFiles/server.dir/main.cpp.o:
 /usr/lib/libk5crypto.so.3:
 
 /usr/lib/libicui18n.so.76:
+
+/usr/lib/libicudata.so.76:
 
 /usr/lib/libgssapi_krb5.so.2:
 
@@ -2804,8 +2933,6 @@ server/CMakeFiles/server.dir/main.cpp.o:
 /usr/lib/libduktape.so.207:
 
 /usr/lib/libcurl.so.4:
-
-/usr/lib/libcap.so.2:
 
 /usr/lib/libbrotlidec.so.1:
 
@@ -2833,6 +2960,8 @@ server/CMakeFiles/server.dir/main.cpp.o:
 
 /usr/lib/libgcc_s.so:
 
+/usr/lib32/libexpat.so.1:
+
 /usr/lib/crti.o:
 
 /usr/include/qt6/QtCore/qtmochelpers.h:
@@ -2845,9 +2974,13 @@ server/server_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 server/server_autogen/mocs_compilation.cpp:
 
-/usr/include/qt6/QtWidgets/qmenu.h:
+/usr/include/qt6/QtWidgets/qtextedit.h:
 
-/usr/include/qt6/QtWidgets/QStatusBar:
+/usr/include/qt6/QtWidgets/qabstractscrollarea.h:
+
+/usr/lib/libcap.so.2:
+
+/usr/include/qt6/QtGui/qtextoption.h:
 
 server/server_autogen/include/ui_mainwindow.h:
 
@@ -2858,20 +2991,6 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h:
 
 /usr/include/stdint.h:
-
-/usr/include/qt6/QtWidgets/qapplication.h:
-
-/usr/include/qt6/QtGui/qinputmethod.h:
-
-/usr/include/qt6/QtCore/qnativeinterface.h:
-
-/usr/include/qt6/QtCore/qeventloop.h:
-
-/usr/include/qt6/QtCore/qcoreapplication_platform.h:
-
-/usr/include/qt6/QtCore/qcoreapplication.h:
-
-/usr/include/qt6/QtCore/qabstracteventdispatcher.h:
 
 /usr/include/math.h:
 
@@ -2884,6 +3003,8 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/include/bits/stdint-least.h:
 
 /usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathcalls-narrow.h:
 
 /usr/include/bits/mathcalls-macros.h:
 
@@ -2901,6 +3022,8 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
 
+/usr/lib32/libpcre2-8.so.0:
+
 /usr/share/cmake/Modules/FeatureSummary.cmake:
 
 /usr/share/cmake/Modules/CheckLibraryExists.cmake:
@@ -2914,12 +3037,6 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdbool.h:
-
-/usr/include/qt6/QtCore/qdeadlinetimer.h:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
-
-/usr/include/qt6/QtWidgets/qstatusbar.h:
 
 /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
 
@@ -2953,6 +3070,8 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfig.cmake:
 
+/usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateAdditionalTargetInfo.cmake:
+
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake:
@@ -2960,8 +3079,6 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake:
 
@@ -2971,11 +3088,11 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake:
 
+/usr/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake:
+
 /usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/qt6/QtWidgets/QMenuBar:
 
 /usr/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake:
 
@@ -2988,6 +3105,8 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
 /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
+
+/usr/lib32/libssl.so.3:
 
 /usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake:
 
@@ -3017,35 +3136,17 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/libxcb.so.1:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake:
 
 /usr/lib/libunistring.so.5:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake:
 
+/usr/lib32/libgobject-2.0.so.0:
+
 /usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfigVersionImpl.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtWidgets/qmenubar.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -3065,14 +3166,6 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake:
-
 /usr/include/qt6/QtCore/qtmocconstants.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
@@ -3091,6 +3184,8 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake:
 
+/usr/lib32/libXau.so.6:
+
 /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake:
@@ -3101,23 +3196,11 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginAdditionalTargetInfo.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtGui/qguiapplication_platform.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -3149,14 +3232,6 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/libicudata.so.76:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginConfig.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
@@ -3169,17 +3244,9 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
+
+/usr/lib32/libssh2.so.1:
 
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
 
@@ -3192,6 +3259,8 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake:
+
+/usr/include/qt6/QtGui/qpen.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake:
 
@@ -3229,8 +3298,6 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginAdditionalTargetInfo.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake:
@@ -3238,6 +3305,8 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/share/cmake/Modules/FindPkgConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/lib32/libunistring.so.5:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -3259,11 +3328,55 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
+
+/usr/lib/libQt6Gui.so.6.9.0:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfig.cmake:
+
+/usr/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake:
+
+/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake:
+
+/usr/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake:
+
+/usr/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
+
+/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
+
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
+
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake:
 
 /usr/include/endian.h:
 
@@ -3287,10 +3400,6 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/15.1.1/tr1/poly_hermite.tcc:
 
-/usr/include/qt6/QtWidgets/QWidget:
-
-/usr/include/c++/15.1.1/tr1/hypergeometric.tcc:
-
 /usr/include/c++/15.1.1/pstl/pstl_config.h:
 
 /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
@@ -3299,9 +3408,15 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/15.1.1/bits/stl_construct.h:
 
+/usr/include/c++/15.1.1/tr1/gamma.tcc:
+
+/usr/include/qt6/QtGui/qpixelformat.h:
+
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake:
 
 /usr/include/c++/15.1.1/tr1/exp_integral.tcc:
+
+/usr/lib32/libcap.so.2:
 
 /usr/include/c++/15.1.1/tr1/ell_integral.tcc:
 
@@ -3309,7 +3424,13 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/bits/types/__fpos_t.h:
 
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
+/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateAdditionalTargetInfo.cmake:
+
+/usr/include/qt6/QtCore/qchar.h:
+
+/usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake:
+
+/home/saloedus/Documents/GitHub/QT_prod/server/CMakeLists.txt:
 
 /usr/include/c++/15.1.1/pstl/execution_defs.h:
 
@@ -3318,6 +3439,12 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/include/qt6/QtCore/qtpreprocessorsupport.h:
 
 /usr/include/qt6/QtCore/qtypeinfo.h:
+
+/usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfigVersion.cmake:
+
+/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersionImpl.cmake:
+
+/usr/include/qt6/QtGui/qpalette.h:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -3338,8 +3465,6 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
 
 /usr/include/c++/15.1.1/map:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
 
 /usr/lib/libQt6Widgets.so.6.9.0:
 
@@ -3371,6 +3496,10 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
+/usr/include/c++/15.1.1/cmath:
+
+/usr/include/qt6/QtWidgets/qlabel.h:
+
 /usr/include/c++/15.1.1/climits:
 
 /usr/include/qt6/QtCore/qatomic_cxx11.h:
@@ -3381,7 +3510,23 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake:
 
+/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/qt6/QtWidgets/QTextEdit:
+
+/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/share/cmake/Modules/MacroAddFileDependencies.cmake:
+
+/usr/include/qt6/QtCore/qmargins.h:
+
+/usr/include/c++/15.1.1/cctype:
+
 /usr/include/c++/15.1.1/unordered_set:
+
+/usr/include/qt6/QtGui/qkeysequence.h:
+
+/usr/include/c++/15.1.1/bits/version.h:
 
 /usr/include/qt6/QtCore/q23type_traits.h:
 
@@ -3389,15 +3534,15 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/15.1.1/tr1/bessel_function.tcc:
 
+/usr/lib32/libnghttp2.so.14:
+
 /usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/c++/15.1.1/bits/utility.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake:
-
 /usr/include/c++/15.1.1/bits/uses_allocator.h:
 
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
+/usr/include/qt6/QtGui/qtextcursor.h:
 
 /usr/include/c++/15.1.1/bits/uniform_int_dist.h:
 
@@ -3423,6 +3568,8 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/15.1.1/bits/stl_tempbuf.h:
 
+/usr/lib32/libxcb.so.1:
+
 /usr/include/c++/15.1.1/bits/shared_ptr_atomic.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
@@ -3433,27 +3580,27 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/15.1.1/bits/stl_multiset.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake:
+/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
 
-/usr/include/qt6/QtNetwork/qabstractsocket.h:
+/usr/include/c++/15.1.1/debug/assertions.h:
 
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
 
+/home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.cpp:
+
 /usr/include/sys/select.h:
-
-/usr/lib/libc_nonshared.a:
-
-/usr/include/qt6/QtCore/qelapsedtimer.h:
-
-/usr/include/c++/15.1.1/bits/stl_map.h:
 
 /usr/include/c++/15.1.1/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/15.1.1/bits/stl_tree.h:
 
 /usr/include/qt6/QtCore/qmetatype.h:
+
+/usr/include/c++/15.1.1/tr1/hypergeometric.tcc:
+
+/usr/include/qt6/QtWidgets/QWidget:
 
 /usr/include/c++/15.1.1/type_traits:
 
@@ -3473,6 +3620,10 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/qt6/QtCore/qstringalgorithms.h:
 
+/usr/lib/libxcb.so.1:
+
+/usr/include/qt6/QtGui/qtextdocument.h:
+
 /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake:
 
 /usr/include/c++/15.1.1/bits/shared_ptr_base.h:
@@ -3480,6 +3631,8 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
 /usr/include/c++/15.1.1/compare:
+
+/home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.h:
 
 /usr/include/bits/errno.h:
 
@@ -3507,35 +3660,19 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/15.1.1/bits/predefined_ops.h:
 
-/usr/include/qt6/QtCore/qchar.h:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtCore/qbasictimer.h:
-
-/usr/include/qt6/QtGui/qfontvariableaxis.h:
-
 /usr/include/c++/15.1.1/bits/uses_allocator_args.h:
 
-/usr/include/bits/types/__FILE.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/server/include/server.h:
+/usr/include/qt6/QtWidgets/qlayoutitem.h:
 
 /usr/include/bits/types/FILE.h:
 
 /usr/include/linux/posix_types.h:
 
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
+
+/usr/include/qt6/QtCore/QObject:
+
 /usr/include/qt6/QtCore/q23utility.h:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
-
-/usr/include/c++/15.1.1/bits/node_handle.h:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/bits/thread-shared-types.h:
 
 /usr/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake:
 
@@ -3543,13 +3680,27 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/15.1.1/bits/stl_set.h:
 
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfig.cmake:
+/usr/include/c++/15.1.1/new:
+
+/usr/include/qt6/QtCore/qobject_impl.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/qt6/QtNetwork/qtnetworkexports.h:
+
+/usr/include/c++/15.1.1/bits/stl_multimap.h:
+
+/usr/include/c++/15.1.1/ratio:
+
+/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/bits/select.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/15.1.1/bits/exception_ptr.h:
-
-/usr/include/c++/15.1.1/bits/stl_function.h:
 
 /usr/include/c++/15.1.1/array:
 
@@ -3558,8 +3709,6 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/lib/libgcc_s.so.1:
 
 /usr/include/c++/15.1.1/bits/list.tcc:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
@@ -3581,6 +3730,36 @@ server/server_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/15.1.1/bits/erase_if.h:
 
+/usr/include/c++/15.1.1/bits/stl_function.h:
+
+/home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.ui:
+
+/usr/include/asm/posix_types_64.h:
+
+/usr/include/c++/15.1.1/bits/concept_check.h:
+
+/usr/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
+
+/usr/include/c++/15.1.1/bits/hash_bytes.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake:
+
+/usr/include/c++/15.1.1/bits/memory_resource.h:
+
+/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
+
+/usr/include/c++/15.1.1/bits/node_handle.h:
+
+/usr/lib/libbz2.so.1.0:
+
+/usr/include/c++/15.1.1/bits/locale_classes.h:
+
+/usr/include/c++/15.1.1/bits/parse_numbers.h:
+
+/usr/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
+
 /usr/include/bits/setjmp.h:
 
 /usr/share/cmake/Modules/FindOpenGL.cmake:
@@ -3588,126 +3767,6 @@ server/server_autogen/include/ui_mainwindow.h:
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/bits/wchar.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15.1.1/cassert:
-
-/usr/include/c++/15.1.1/bits/ios_base.h:
-
-server/server_autogen/6YEA5652QU/moc_server.cpp:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/lib/libQt6Core.so.6.9.0:
-
-/usr/include/c++/15.1.1/bits/stl_bvector.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/qt6/QtCore/qlist.h:
-
-/usr/include/c++/15.1.1/debug/assertions.h:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
-
-/usr/include/c++/15.1.1/ext/atomicity.h:
-
-/usr/include/c++/15.1.1/bits/stl_vector.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/c++/15.1.1/tr1/gamma.tcc:
-
-/usr/include/c++/15.1.1/bits/version.h:
-
-/usr/include/qt6/QtGui/qkeysequence.h:
-
-/usr/include/qt6/QtGui/qpixelformat.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake:
-
-/usr/include/bits/time.h:
-
-/usr/include/c++/15.1.1/bits/concept_check.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/share/cmake/Modules/MacroAddFileDependencies.cmake:
-
-/usr/include/qt6/QtCore/qmargins.h:
-
-/usr/include/c++/15.1.1/cctype:
-
-/usr/include/asm/posix_types_64.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/server/src/server.cpp:
-
-/usr/include/c++/15.1.1/new:
-
-/usr/include/qt6/QtCore/qobject_impl.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/qt6/QtNetwork/qtnetworkexports.h:
-
-/usr/include/c++/15.1.1/bits/stl_multimap.h:
-
-/usr/include/c++/15.1.1/ratio:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake:
-
-/usr/include/bits/select.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/server/main.cpp:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15.1.1/iterator:
-
-server/CMakeFiles/server.dir/mainwindow.cpp.o:
-
-.qtc/package-manager/auto-setup.cmake:
-
-/usr/include/qt6/QtWidgets/QApplication:
-
-/usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateTargets.cmake:
-
-/usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.cpp:
-
-/usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/c++/15.1.1/bits/basic_string.tcc:
 
 /usr/include/c++/15.1.1/bits/functexcept.h:
 
@@ -3719,25 +3778,57 @@ server/CMakeFiles/server.dir/mainwindow.cpp.o:
 
 /usr/include/qt6/QtCore/qtcoreexports.h:
 
-/usr/include/c++/15.1.1/cmath:
+/usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake:
 
-/home/Artem/Downloads/Telegram\ Desktop/semblance/server/CMakeLists.txt:
+/usr/include/bits/waitstatus.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/c++/15.1.1/bits/basic_string.tcc:
 
-/usr/include/qt6/QtCore/q20type_traits.h:
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake:
+/usr/include/c++/15.1.1/cassert:
 
-/usr/include/c++/15.1.1/bits/algorithmfwd.h:
+/usr/include/c++/15.1.1/bits/ios_base.h:
 
-/home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.ui:
+server/server_autogen/6YEA5652QU/moc_server.cpp:
 
-/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/qt6/QtCore/qprocessordetection.h:
+/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
 
-/usr/include/bits/types/__sigset_t.h:
+/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/include/c++/15.1.1/iterator:
+
+server/CMakeFiles/server.dir/mainwindow.cpp.o:
+
+.qtc/package-manager/auto-setup.cmake:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/15.1.1/ext/atomicity.h:
+
+/usr/lib32/libbz2.so.1.0:
+
+/usr/include/qt6/QtWidgets/QStackedWidget:
+
+/usr/include/c++/15.1.1/bits/stl_vector.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/home/saloedus/Documents/GitHub/QT_prod/server/main.cpp:
+
+/usr/include/bits/floatn.h:
+
+/home/saloedus/Documents/GitHub/QT_prod/server/include/server.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake:
+
+/usr/include/bits/time.h:
 
 /usr/lib/libresolv.so.2:
 
@@ -3775,19 +3866,45 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/bits/cxxabi_forced.h:
 
-/usr/lib/libbz2.so.1.0:
+/usr/include/bits/types/__sigset_t.h:
 
-/usr/include/c++/15.1.1/bits/locale_classes.h:
+/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake:
 
-/usr/include/c++/15.1.1/bits/parse_numbers.h:
+/usr/include/qt6/QtGui/qguiapplication_platform.h:
 
-/usr/include/bits/floatn.h:
+/usr/include/c++/15.1.1/cstdlib:
+
+/usr/lib/libc_nonshared.a:
+
+/usr/include/c++/15.1.1/bits/stl_map.h:
+
+/usr/include/qt6/QtCore/qelapsedtimer.h:
+
+/usr/include/qt6/QtCore/qurl.h:
 
 /usr/include/qt6/QtCore/qbytearray.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake:
+/usr/include/qt6/QtWidgets/qapplication.h:
 
-/usr/include/c++/15.1.1/cstdlib:
+/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/c++/15.1.1/bits/algorithmfwd.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/lib/libQt6Core.so.6.9.0:
+
+/usr/include/c++/15.1.1/bits/stl_bvector.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/qt6/QtCore/qlist.h:
 
 /usr/include/bits/endianness.h:
 
@@ -3817,6 +3934,18 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/bits/timex.h:
 
+/usr/include/sys/single_threaded.h:
+
+/usr/include/asm-generic/errno.h:
+
+/home/saloedus/Documents/GitHub/QT_prod/server/src/server.cpp:
+
+/usr/include/features.h:
+
+/usr/include/qt6/QtCore/q20iterator.h:
+
+/usr/include/qt6/QtWidgets/qboxlayout.h:
+
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/include/c++/15.1.1/debug/debug.h:
@@ -3829,17 +3958,9 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/atomic:
 
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
-
 /usr/include/bits/types/mbstate_t.h:
 
 /usr/include/bits/types/sigset_t.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake:
-
-/usr/include/c++/15.1.1/bits/memory_resource.h:
 
 /usr/include/c++/15.1.1/bits/stl_algo.h:
 
@@ -3849,17 +3970,19 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/bits/stl_algobase.h:
 
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake:
-
 /usr/include/bits/sched.h:
+
+/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
 
 /usr/include/qt6/QtCore/qshareddata_impl.h:
 
 /usr/include/qt6/QtCore/qconfig.h:
 
-/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
-
 /usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/qt6/QtCore/q20type_traits.h:
 
 /usr/include/c++/15.1.1/bits/cxxabi_init_exception.h:
 
@@ -3905,8 +4028,6 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/bits/stl_heap.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake:
-
 /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake:
 
 /usr/include/c++/15.1.1/bits/string_view.tcc:
@@ -3917,11 +4038,7 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/bits/stdlib-float.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake:
-
 /usr/include/qt6/QtGui/qtransform.h:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake:
 
 /usr/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake:
 
@@ -3961,6 +4078,8 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/algorithm:
 
+/usr/include/qt6/QtCore/qabstracteventdispatcher.h:
+
 /usr/include/c++/15.1.1/bits/unique_ptr.h:
 
 /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
@@ -3969,9 +4088,13 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
 
+/usr/include/qt6/QtWidgets/qgridlayout.h:
+
 /usr/include/c++/15.1.1/bits/functional_hash.h:
 
 /usr/include/qt6/QtCore/q20utility.h:
+
+/usr/lib32/libicudata.so.76:
 
 /usr/include/c++/15.1.1/bits/invoke.h:
 
@@ -4002,8 +4125,6 @@ server/server_autogen/moc_predefs.h:
 /usr/include/c++/15.1.1/bits/shared_ptr.h:
 
 /usr/include/c++/15.1.1/bits/char_traits.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake:
 
 /usr/include/qt6/QtCore/qatomic.h:
 
@@ -4037,9 +4158,9 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/backward/auto_ptr.h:
 
-/usr/include/bits/types/wint_t.h:
+/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
 
-/usr/include/c++/15.1.1/bits/hash_bytes.h:
+/usr/include/qt6/QtGui/qguiapplication.h:
 
 /usr/include/c++/15.1.1/utility:
 
@@ -4052,8 +4173,6 @@ server/server_autogen/moc_predefs.h:
 /usr/include/c++/15.1.1/bits/move.h:
 
 /usr/include/errno.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.h:
 
 /usr/include/c++/15.1.1/bits/stl_numeric.h:
 
@@ -4076,8 +4195,6 @@ server/server_autogen/moc_predefs.h:
 /usr/include/qt6/QtCore/qtconfigmacros.h:
 
 /usr/include/gnu/stubs.h:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
 /usr/lib/crtn.o:
 
@@ -4107,13 +4224,13 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/q20functional.h:
 
-/usr/include/features.h:
-
-/usr/include/qt6/QtCore/q20iterator.h:
-
 /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
 
 /usr/include/qt6/QtCore/q20memory.h:
+
+/usr/include/qt6/QtGui/qfontvariableaxis.h:
+
+/usr/include/qt6/QtCore/qbasictimer.h:
 
 /usr/include/qt6/QtGui/qimage.h:
 
@@ -4123,11 +4240,9 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qarraydataops.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake:
-
 /usr/include/qt6/QtCore/qflags.h:
 
-/usr/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
+/usr/lib32/libnghttp3.so.9:
 
 /usr/include/qt6/QtCore/qarraydatapointer.h:
 
@@ -4145,10 +4260,6 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qbindingstorage.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtCore/qbytearrayalgorithms.h:
-
 /usr/include/qt6/QtCore/qbytearraylist.h:
 
 /usr/include/qt6/QtCore/qcompare.h:
@@ -4165,8 +4276,6 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtNetwork/QTcpSocket:
 
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
 
 /usr/include/qt6/QtCore/qcontainertools_impl.h:
@@ -4175,21 +4284,31 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qcontiguouscache.h:
 
+/usr/include/qt6/QtCore/qcoreapplication.h:
+
+/usr/include/qt6/QtCore/qdatastream.h:
+
+/usr/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
+
+/usr/include/qt6/QtCore/qcoreapplication_platform.h:
+
 /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets.cmake:
 
 /usr/include/c++/15.1.1/bits/requires_hosted.h:
 
 /usr/include/qt6/QtCore/qdarwinhelpers.h:
 
-/usr/include/qt6/QtCore/qdatastream.h:
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
-/usr/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
+/usr/include/qt6/QtWidgets/QVBoxLayout:
+
+/usr/include/qt6/QtCore/qdeadlinetimer.h:
 
 /usr/include/qt6/QtCore/qdebug.h:
 
 /usr/include/qt6/QtCore/qendian.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake:
+/usr/include/qt6/QtCore/qeventloop.h:
 
 /usr/include/qt6/QtCore/qexceptionhandling.h:
 
@@ -4209,8 +4328,6 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qfunctionpointer.h:
 
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
-
 /usr/include/qt6/QtCore/qgenericatomic.h:
 
 /usr/include/qt6/QtCore/qglobal.h:
@@ -4229,8 +4346,6 @@ server/server_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets.cmake:
-
 /usr/include/qt6/QtCore/qhashfunctions.h:
 
 /usr/include/c++/15.1.1/cstdio:
@@ -4240,6 +4355,8 @@ server/server_autogen/moc_predefs.h:
 /usr/include/c++/15.1.1/ext/numeric_traits.h:
 
 /usr/include/qt6/QtCore/qiodevicebase.h:
+
+/usr/lib32/libXdmcp.so.6:
 
 /usr/include/qt6/QtCore/qline.h:
 
@@ -4253,11 +4370,15 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qmalloc.h:
 
+/usr/lib32/libcurl.so.4:
+
 /usr/include/c++/15.1.1/string_view:
 
 /usr/include/qt6/QtGui/qrgba64.h:
 
 /usr/include/qt6/QtCore/qmap.h:
+
+/usr/include/qt6/QtGui/qtextformat.h:
 
 /usr/include/qt6/QtCore/qmath.h:
 
@@ -4265,9 +4386,9 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qmetacontainer.h:
 
-/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
-
 /usr/include/qt6/QtCore/qnamespace.h:
+
+/usr/include/qt6/QtCore/qnativeinterface.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake:
 
@@ -4276,6 +4397,8 @@ server/server_autogen/moc_predefs.h:
 /usr/include/qt6/QtCore/qnumeric.h:
 
 /usr/include/qt6/QtCore/qobject.h:
+
+/usr/lib32/libgmodule-2.0.so.0:
 
 /usr/include/limits.h:
 
@@ -4293,13 +4416,23 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qpoint.h:
 
-/usr/include/qt6/QtCore/qscopedpointer.h:
+/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake:
 
-/usr/include/qt6/QtCore/qrefcount.h:
+/usr/include/qt6/QtCore/qprocessordetection.h:
 
 /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
+/usr/include/qt6/QtCore/qrefcount.h:
+
+/usr/include/qt6/QtCore/qscopedpointer.h:
+
 /usr/include/qt6/QtCore/qscopeguard.h:
+
+/usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateTargets.cmake:
+
+/usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h:
+
+/usr/include/qt6/QtWidgets/QApplication:
 
 /usr/include/c++/15.1.1/system_error:
 
@@ -4353,10 +4486,6 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qsystemdetection.h:
 
-/usr/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
-
 /usr/include/qt6/QtCore/qtclasshelpermacros.h:
 
 /usr/include/qt6/QtCore/qtcore-config.h:
@@ -4376,8 +4505,6 @@ server/server_autogen/moc_predefs.h:
 /usr/include/locale.h:
 
 /usr/include/qt6/QtCore/qtdeprecationmarkers.h:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
 
 /usr/include/qt6/QtCore/qtextstream.h:
 
@@ -4413,6 +4540,12 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qvarlengtharray.h:
 
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake:
+
+/usr/include/qt6/QtGui/qaction.h:
+
 /usr/include/qt6/QtCore/qcoreevent.h:
 
 /usr/include/qt6/QtGui/qbitmap.h:
@@ -4420,6 +4553,8 @@ server/server_autogen/moc_predefs.h:
 /usr/include/bits/types/clockid_t.h:
 
 /usr/lib/cmake/Qt6/QtInstallPaths.cmake:
+
+/usr/lib32/libpsl.so.5:
 
 /usr/include/c++/15.1.1/bits/enable_special_members.h:
 
@@ -4432,6 +4567,8 @@ server/server_autogen/moc_predefs.h:
 /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake:
 
 /usr/include/qt6/QtGui/qicon.h:
+
+/usr/include/qt6/QtGui/qinputmethod.h:
 
 /usr/lib/cmake/Qt6/QtFeature.cmake:
 
@@ -4449,6 +4586,8 @@ server/server_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
 
+/usr/include/qt6/QtGui/qpicture.h:
+
 /usr/bin/cmake:
 
 /usr/include/qt6/QtGui/qrgb.h:
@@ -4458,6 +4597,8 @@ server/server_autogen/moc_predefs.h:
 /usr/include/qt6/QtGui/qtgui-config.h:
 
 /usr/include/qt6/QtGui/qtguiexports.h:
+
+/usr/include/qt6/QtWidgets/qlineedit.h:
 
 /usr/include/qt6/QtGui/qfont.h:
 
@@ -4481,7 +4622,43 @@ server/server_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtNetwork/qtnetworkglobal.h:
 
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/qt6/QtWidgets/QLabel:
+
 /usr/include/qt6/QtWidgets/QMainWindow:
+
+/usr/include/qt6/QtWidgets/QPushButton:
+
+/usr/lib32/libffi.so.8:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/qt6/QtWidgets/qabstractbutton.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake:
+
+/usr/include/qt6/QtCore/qbytearrayalgorithms.h:
+
+/usr/include/qt6/QtWidgets/qframe.h:
+
+/usr/include/qt6/QtWidgets/qlayout.h:
+
+/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
+
+/usr/include/qt6/QtWidgets/qpushbutton.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake:
+
+/usr/include/qt6/QtNetwork/qabstractsocket.h:
+
+/usr/include/qt6/QtWidgets/qstackedwidget.h:
+
+/usr/include/qt6/QtCore/qlocale.h:
+
+/usr/include/time.h:
 
 /usr/include/bits/floatn-common.h:
 
@@ -4517,10 +4694,6 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o:
 
 /usr/include/sys/types.h:
 
-/usr/include/qt6/QtCore/qlocale.h:
-
-/usr/include/time.h:
-
 /usr/lib/cmake/Qt6/FindWrapOpenGL.cmake:
 
 /usr/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
@@ -4529,9 +4702,7 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o:
 
 /usr/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
-/usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
+/usr/include/qt6/QtWidgets/QLineEdit:
 
 /usr/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
@@ -4601,44 +4772,4 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o:
 
 /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
-
 /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
-
-/usr/include/qt6/QtCore/QObject:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
-/usr/include/qt6/QtGui/qguiapplication.h:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfigVersion.cmake:
-
-/usr/include/qt6/QtGui/qpalette.h:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
-
-/usr/lib/libQt6Gui.so.6.9.0:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
-
-/usr/include/qt6/QtGui/qaction.h:
-
-/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake:

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/Artem/Downloads/Telegram Desktop/semblance"
+CMAKE_SOURCE_DIR = /home/saloedus/Documents/GitHub/QT_prod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug"
+CMAKE_BINARY_DIR = /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug
 
 # Include any dependencies generated for this target.
 include client/CMakeFiles/client.dir/depend.make
@@ -72,9 +72,9 @@ include client/CMakeFiles/client.dir/flags.make
 client/client_autogen/timestamp: /usr/lib/qt6/moc
 client/client_autogen/timestamp: /usr/lib/qt6/uic
 client/client_autogen/timestamp: client/CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target client"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/cmake -E cmake_autogen "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/CMakeFiles/client_autogen.dir/AutogenInfo.json" Debug
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/cmake -E touch "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target client"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/cmake -E cmake_autogen /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/CMakeFiles/client_autogen.dir/AutogenInfo.json Debug
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/cmake -E touch /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/timestamp
 
 client/CMakeFiles/client.dir/codegen:
 .PHONY : client/CMakeFiles/client.dir/codegen
@@ -82,58 +82,58 @@ client/CMakeFiles/client.dir/codegen:
 client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: client/client_autogen/mocs_compilation.cpp
 client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: client/CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o -MF CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o -c "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o -MF CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o -c /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp
 
 client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.i"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp" > CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.i
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp > CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.i
 
 client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp" -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s
 
 client/CMakeFiles/client.dir/main.cpp.o: client/CMakeFiles/client.dir/flags.make
-client/CMakeFiles/client.dir/main.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/client/main.cpp
+client/CMakeFiles/client.dir/main.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/client/main.cpp
 client/CMakeFiles/client.dir/main.cpp.o: client/CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object client/CMakeFiles/client.dir/main.cpp.o"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT client/CMakeFiles/client.dir/main.cpp.o -MF CMakeFiles/client.dir/main.cpp.o.d -o CMakeFiles/client.dir/main.cpp.o -c "/home/Artem/Downloads/Telegram Desktop/semblance/client/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object client/CMakeFiles/client.dir/main.cpp.o"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT client/CMakeFiles/client.dir/main.cpp.o -MF CMakeFiles/client.dir/main.cpp.o.d -o CMakeFiles/client.dir/main.cpp.o -c /home/saloedus/Documents/GitHub/QT_prod/client/main.cpp
 
 client/CMakeFiles/client.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/main.cpp.i"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/Artem/Downloads/Telegram Desktop/semblance/client/main.cpp" > CMakeFiles/client.dir/main.cpp.i
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saloedus/Documents/GitHub/QT_prod/client/main.cpp > CMakeFiles/client.dir/main.cpp.i
 
 client/CMakeFiles/client.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/main.cpp.s"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/Artem/Downloads/Telegram Desktop/semblance/client/main.cpp" -o CMakeFiles/client.dir/main.cpp.s
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saloedus/Documents/GitHub/QT_prod/client/main.cpp -o CMakeFiles/client.dir/main.cpp.s
 
 client/CMakeFiles/client.dir/src/client.cpp.o: client/CMakeFiles/client.dir/flags.make
-client/CMakeFiles/client.dir/src/client.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/client.cpp
+client/CMakeFiles/client.dir/src/client.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp
 client/CMakeFiles/client.dir/src/client.cpp.o: client/CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object client/CMakeFiles/client.dir/src/client.cpp.o"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT client/CMakeFiles/client.dir/src/client.cpp.o -MF CMakeFiles/client.dir/src/client.cpp.o.d -o CMakeFiles/client.dir/src/client.cpp.o -c "/home/Artem/Downloads/Telegram Desktop/semblance/client/src/client.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object client/CMakeFiles/client.dir/src/client.cpp.o"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT client/CMakeFiles/client.dir/src/client.cpp.o -MF CMakeFiles/client.dir/src/client.cpp.o.d -o CMakeFiles/client.dir/src/client.cpp.o -c /home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp
 
 client/CMakeFiles/client.dir/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/src/client.cpp.i"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/Artem/Downloads/Telegram Desktop/semblance/client/src/client.cpp" > CMakeFiles/client.dir/src/client.cpp.i
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp > CMakeFiles/client.dir/src/client.cpp.i
 
 client/CMakeFiles/client.dir/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/client.cpp.s"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/Artem/Downloads/Telegram Desktop/semblance/client/src/client.cpp" -o CMakeFiles/client.dir/src/client.cpp.s
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp -o CMakeFiles/client.dir/src/client.cpp.s
 
 client/CMakeFiles/client.dir/src/systemInfo.cpp.o: client/CMakeFiles/client.dir/flags.make
-client/CMakeFiles/client.dir/src/systemInfo.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/systemInfo.cpp
+client/CMakeFiles/client.dir/src/systemInfo.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp
 client/CMakeFiles/client.dir/src/systemInfo.cpp.o: client/CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object client/CMakeFiles/client.dir/src/systemInfo.cpp.o"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT client/CMakeFiles/client.dir/src/systemInfo.cpp.o -MF CMakeFiles/client.dir/src/systemInfo.cpp.o.d -o CMakeFiles/client.dir/src/systemInfo.cpp.o -c "/home/Artem/Downloads/Telegram Desktop/semblance/client/src/systemInfo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object client/CMakeFiles/client.dir/src/systemInfo.cpp.o"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT client/CMakeFiles/client.dir/src/systemInfo.cpp.o -MF CMakeFiles/client.dir/src/systemInfo.cpp.o.d -o CMakeFiles/client.dir/src/systemInfo.cpp.o -c /home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp
 
 client/CMakeFiles/client.dir/src/systemInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/src/systemInfo.cpp.i"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/Artem/Downloads/Telegram Desktop/semblance/client/src/systemInfo.cpp" > CMakeFiles/client.dir/src/systemInfo.cpp.i
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp > CMakeFiles/client.dir/src/systemInfo.cpp.i
 
 client/CMakeFiles/client.dir/src/systemInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/systemInfo.cpp.s"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/Artem/Downloads/Telegram Desktop/semblance/client/src/systemInfo.cpp" -o CMakeFiles/client.dir/src/systemInfo.cpp.s
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp -o CMakeFiles/client.dir/src/systemInfo.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
@@ -154,18 +154,18 @@ client/client: client/CMakeFiles/client.dir/compiler_depend.ts
 client/client: /usr/lib/libQt6Network.so.6.9.0
 client/client: /usr/lib/libQt6Core.so.6.9.0
 client/client: client/CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable client"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable client"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 client/CMakeFiles/client.dir/build: client/client
 .PHONY : client/CMakeFiles/client.dir/build
 
 client/CMakeFiles/client.dir/clean:
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" && $(CMAKE_COMMAND) -P CMakeFiles/client.dir/cmake_clean.cmake
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client && $(CMAKE_COMMAND) -P CMakeFiles/client.dir/cmake_clean.cmake
 .PHONY : client/CMakeFiles/client.dir/clean
 
 client/CMakeFiles/client.dir/depend: client/client_autogen/timestamp
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/Artem/Downloads/Telegram Desktop/semblance" "/home/Artem/Downloads/Telegram Desktop/semblance/client" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/CMakeFiles/client.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saloedus/Documents/GitHub/QT_prod /home/saloedus/Documents/GitHub/QT_prod/client /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/CMakeFiles/client.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : client/CMakeFiles/client.dir/depend
 

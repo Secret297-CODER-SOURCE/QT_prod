@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/Artem/Downloads/Telegram Desktop/semblance"
+CMAKE_SOURCE_DIR = /home/saloedus/Documents/GitHub/QT_prod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug"
+CMAKE_BINARY_DIR = /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug
 
 # Utility rule file for server_autogen_timestamp_deps.
 
@@ -77,10 +77,10 @@ server/CMakeFiles/server_autogen_timestamp_deps.dir/build: server_autogen_timest
 .PHONY : server/CMakeFiles/server_autogen_timestamp_deps.dir/build
 
 server/CMakeFiles/server_autogen_timestamp_deps.dir/clean:
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server" && $(CMAKE_COMMAND) -P CMakeFiles/server_autogen_timestamp_deps.dir/cmake_clean.cmake
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server && $(CMAKE_COMMAND) -P CMakeFiles/server_autogen_timestamp_deps.dir/cmake_clean.cmake
 .PHONY : server/CMakeFiles/server_autogen_timestamp_deps.dir/clean
 
 server/CMakeFiles/server_autogen_timestamp_deps.dir/depend:
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/Artem/Downloads/Telegram Desktop/semblance" "/home/Artem/Downloads/Telegram Desktop/semblance/server" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/CMakeFiles/server_autogen_timestamp_deps.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saloedus/Documents/GitHub/QT_prod /home/saloedus/Documents/GitHub/QT_prod/server /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/CMakeFiles/server_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : server/CMakeFiles/server_autogen_timestamp_deps.dir/depend
 

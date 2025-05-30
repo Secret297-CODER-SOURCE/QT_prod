@@ -3,6 +3,14 @@
 
 #include <QMainWindow>
 
+#include <QApplication>
+#include <QWidget>
+#include <QStackedWidget>
+#include <QVBoxLayout>
+#include <QPushButton>
+#include <QLabel>
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -16,8 +24,10 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void page_change();
 
 private:
     Ui::MainWindow *ui;
+    QStackedWidget *stackedWidget;
 };
 #endif // MAINWINDOW_H

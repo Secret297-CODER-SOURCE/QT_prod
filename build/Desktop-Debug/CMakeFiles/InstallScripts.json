@@ -1,9 +1,9 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/cmake_install.cmake",
-		"/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/cmake_install.cmake",
-		"/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/cmake_install.cmake"
+		"/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/cmake_install.cmake",
+		"/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/cmake_install.cmake",
+		"/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

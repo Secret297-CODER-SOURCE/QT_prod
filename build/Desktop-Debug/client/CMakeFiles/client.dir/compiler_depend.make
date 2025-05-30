@@ -3,12 +3,12 @@
 
 client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   client/client_autogen/moc_predefs.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/CMakeLists.txt \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/main.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/client.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/systemInfo.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/CMakeLists.txt \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/client.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/main.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp \
   /usr/bin/cmake \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -516,8 +516,8 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake
 
 client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: client/client_autogen/mocs_compilation.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/client.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h \
   client/client_autogen/6YEA5652QU/moc_client.cpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -961,9 +961,9 @@ client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: client/clien
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
-client/CMakeFiles/client.dir/main.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/client/main.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h \
+client/CMakeFiles/client.dir/main.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/client/main.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/client.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1407,9 +1407,9 @@ client/CMakeFiles/client.dir/main.cpp.o: /home/Artem/Downloads/Telegram\ Desktop
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
-client/CMakeFiles/client.dir/src/client.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/client.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h \
+client/CMakeFiles/client.dir/src/client.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/client.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1848,8 +1848,8 @@ client/CMakeFiles/client.dir/src/client.cpp.o: /home/Artem/Downloads/Telegram\ D
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
-client/CMakeFiles/client.dir/src/systemInfo.cpp.o: /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/systemInfo.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h \
+client/CMakeFiles/client.dir/src/systemInfo.cpp.o: /home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2258,6 +2258,31 @@ client/client: /usr/lib/Scrt1.o \
   /usr/lib/libunistring.so.5 \
   /usr/lib/libz.so.1 \
   /usr/lib/libzstd.so.1 \
+  /usr/lib32/libblkid.so.1 \
+  /usr/lib32/libbrotlicommon.so.1 \
+  /usr/lib32/libcap.so.2 \
+  /usr/lib32/libcom_err.so.2 \
+  /usr/lib32/libcurl.so.4 \
+  /usr/lib32/libffi.so.8 \
+  /usr/lib32/libgio-2.0.so.0 \
+  /usr/lib32/libgmodule-2.0.so.0 \
+  /usr/lib32/libgobject-2.0.so.0 \
+  /usr/lib32/libgomp.so.1 \
+  /usr/lib32/libicudata.so.76 \
+  /usr/lib32/libidn2.so.0 \
+  /usr/lib32/libk5crypto.so.3 \
+  /usr/lib32/libkeyutils.so.1 \
+  /usr/lib32/libkrb5.so.3 \
+  /usr/lib32/libkrb5support.so.0 \
+  /usr/lib32/libmount.so.1 \
+  /usr/lib32/libnghttp2.so.14 \
+  /usr/lib32/libnghttp3.so.9 \
+  /usr/lib32/libpcre2-8.so.0 \
+  /usr/lib32/libpsl.so.5 \
+  /usr/lib32/libresolv.so.2 \
+  /usr/lib32/libssh2.so.1 \
+  /usr/lib32/libssl.so.3 \
+  /usr/lib32/libunistring.so.5 \
   client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o \
   client/CMakeFiles/client.dir/main.cpp.o \
   client/CMakeFiles/client.dir/src/client.cpp.o \
@@ -2269,6 +2294,38 @@ client/CMakeFiles/client.dir/src/systemInfo.cpp.o:
 client/CMakeFiles/client.dir/src/client.cpp.o:
 
 client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o:
+
+/usr/lib32/libunistring.so.5:
+
+/usr/lib32/libssl.so.3:
+
+/usr/lib32/libssh2.so.1:
+
+/usr/lib32/libresolv.so.2:
+
+/usr/lib32/libpcre2-8.so.0:
+
+/usr/lib32/libmount.so.1:
+
+/usr/lib32/libkrb5support.so.0:
+
+/usr/lib32/libkrb5.so.3:
+
+/usr/lib32/libkeyutils.so.1:
+
+/usr/lib32/libk5crypto.so.3:
+
+/usr/lib32/libidn2.so.0:
+
+/usr/lib32/libgomp.so.1:
+
+/usr/lib32/libgio-2.0.so.0:
+
+/usr/lib32/libcom_err.so.2:
+
+/usr/lib32/libbrotlicommon.so.1:
+
+/usr/lib32/libblkid.so.1:
 
 /usr/lib/libz.so.1:
 
@@ -2438,11 +2495,11 @@ client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o:
 
 /usr/include/c++/15.1.1/tr1/exp_integral.tcc:
 
-/usr/include/c++/15.1.1/tr1/ell_integral.tcc:
-
 /usr/include/c++/15.1.1/tr1/beta_function.tcc:
 
 /usr/include/bits/types/__fpos_t.h:
+
+/usr/lib32/libcurl.so.4:
 
 /usr/include/c++/15.1.1/string_view:
 
@@ -2483,6 +2540,10 @@ client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o:
 /usr/include/c++/15.1.1/ext/concurrence.h:
 
 /usr/include/c++/15.1.1/map:
+
+/usr/include/qt6/QtCore/qbytearrayview.h:
+
+/usr/lib/cmake/Qt6/Qt6Targets.cmake:
 
 /usr/include/c++/15.1.1/cstring:
 
@@ -2529,6 +2590,8 @@ client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o:
 /usr/include/c++/15.1.1/bits/vector.tcc:
 
 /usr/include/c++/15.1.1/tr1/bessel_function.tcc:
+
+/usr/lib32/libnghttp2.so.14:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -2610,6 +2673,14 @@ client/client_autogen/6YEA5652QU/moc_client.cpp:
 
 /usr/include/c++/15.1.1/memory:
 
+/usr/include/features-time64.h:
+
+/usr/include/c++/15.1.1/bits/stl_numeric.h:
+
+/usr/include/c++/15.1.1/bits/cxxabi_forced.h:
+
+/usr/include/bits/types/time_t.h:
+
 /usr/include/c++/15.1.1/bits/uses_allocator_args.h:
 
 /usr/include/c++/15.1.1/set:
@@ -2640,7 +2711,11 @@ client/client_autogen/6YEA5652QU/moc_client.cpp:
 
 /usr/include/asm-generic/int-ll64.h:
 
+/home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp:
+
 /usr/include/bits/pthreadtypes.h:
+
+/usr/include/c++/15.1.1/bits/stl_function.h:
 
 /usr/include/c++/15.1.1/array:
 
@@ -2660,35 +2735,69 @@ client/client_autogen/6YEA5652QU/moc_client.cpp:
 
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
-/usr/include/bits/types/time_t.h:
+/usr/include/bits/setjmp.h:
 
-/usr/include/c++/15.1.1/bits/cxxabi_forced.h:
+/usr/include/c++/15.1.1/cassert:
 
-/usr/include/qt6/QtCore/qbytearrayview.h:
+/usr/include/c++/15.1.1/bits/ios_base.h:
 
-/usr/lib/cmake/Qt6/Qt6Targets.cmake:
+/usr/include/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h:
+/usr/include/bits/wchar.h:
 
-/usr/include/c++/15.1.1/bits/erase_if.h:
+client/client_autogen/moc_predefs.h:
 
-/usr/include/bits/floatn-common.h:
+/usr/lib32/libcap.so.2:
 
-/usr/lib/Scrt1.o:
+/usr/include/c++/15.1.1/tr1/ell_integral.tcc:
 
-/usr/include/c++/15.1.1/iosfwd:
+/home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp:
 
-/usr/include/qt6/QtCore/qanystringview.h:
+/usr/include/qt6/QtCore/QObject:
 
-/usr/lib/libproxy/libpxbackend-1.0.so:
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
-/usr/include/c++/15.1.1/bits/std_function.h:
+/usr/include/bits/errno.h:
 
-/usr/include/bits/timesize.h:
+/usr/include/c++/15.1.1/bits/exception.h:
 
-/usr/include/qt6/QtCore/qiterator.h:
+/home/saloedus/Documents/GitHub/QT_prod/client/CMakeLists.txt:
 
-/usr/include/qt6/QtCore/qminmax.h:
+/usr/include/c++/15.1.1/bits/refwrap.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/15.1.1/bits/functional_hash.h:
+
+/usr/include/qt6/QtCore/q20utility.h:
+
+/usr/lib32/libicudata.so.76:
+
+/usr/include/c++/15.1.1/bits/invoke.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/c++/15.1.1/debug/debug.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
+
+/usr/include/sys/single_threaded.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/c++/15.1.1/bits/node_handle.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
+
+/usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/bits/types/struct_FILE.h:
 
 /usr/include/c++/15.1.1/concepts:
 
@@ -2706,95 +2815,27 @@ client/client_autogen/6YEA5652QU/moc_client.cpp:
 
 /usr/include/qt6/QtNetwork/qtnetworkexports.h:
 
+/usr/lib/Scrt1.o:
+
+/usr/include/c++/15.1.1/iosfwd:
+
+/usr/include/qt6/QtCore/qanystringview.h:
+
+/usr/lib/libproxy/libpxbackend-1.0.so:
+
+/usr/include/c++/15.1.1/bits/std_function.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/qt6/QtCore/qiterator.h:
+
+/usr/include/qt6/QtCore/qminmax.h:
+
 /usr/include/c++/15.1.1/iterator:
 
 .qtc/package-manager/auto-setup.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/libidn2.so.0:
-
-/usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/15.1.1/bits/stl_numeric.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
-
-/usr/include/c++/15.1.1/debug/debug.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/15.1.1/bits/node_handle.h:
-
-/usr/include/bits/setjmp.h:
-
-/usr/include/c++/15.1.1/bits/functexcept.h:
-
-/usr/include/c++/15.1.1/bits/stl_relops.h:
-
-/usr/include/qt6/QtCore/qtcoreexports.h:
-
-/usr/include/bits/local_lim.h:
-
-/usr/include/c++/15.1.1/cassert:
-
-/usr/include/c++/15.1.1/bits/ios_base.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/bits/wchar.h:
-
-client/client_autogen/moc_predefs.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/15.1.1/bits/stl_function.h:
-
-/usr/lib/libQt6Core.so.6.9.0:
-
-/usr/include/c++/15.1.1/bits/stl_bvector.h:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/CMakeLists.txt:
-
-/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
-
-/usr/include/c++/15.1.1/unordered_map:
-
-/usr/include/c++/15.1.1/bits/allocated_ptr.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/c++/15.1.1/bits/shared_ptr.h:
-
-/usr/include/c++/15.1.1/bits/char_traits.h:
-
-/usr/include/qt6/QtCore/qatomic.h:
-
-/usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h:
-
-/usr/include/bits/types/struct_FILE.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
@@ -2805,6 +2846,10 @@ client/client_autogen/moc_predefs.h:
 /usr/bin/cmake:
 
 /usr/include/qt6/QtCore/qsharedpointer.h:
+
+/usr/include/c++/15.1.1/backward/binders.h:
+
+/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
 /usr/include/c++/15.1.1/atomic:
 
@@ -2824,23 +2869,17 @@ client/client_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qelapsedtimer.h:
 
-/usr/include/qt6/QtCore/qbytearray.h:
-
-/usr/include/bits/endianness.h:
-
 /usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
 /usr/include/bits/locale.h:
 
 /usr/include/bits/timex.h:
 
-/usr/include/bits/errno.h:
+/usr/include/qt6/QtCore/qbytearray.h:
 
-/usr/include/c++/15.1.1/bits/exception.h:
+/usr/include/bits/struct_mutex.h:
 
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
+/usr/include/qt6/QtCore/qbindingstorage.h:
 
 /usr/include/c++/15.1.1/bits/stl_algo.h:
 
@@ -2848,27 +2887,53 @@ client/client_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/bits/stl_algobase.h:
 
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/systemInfo.cpp:
-
 /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
-
-/usr/include/bits/sched.h:
-
-/usr/include/qt6/QtCore/qshareddata_impl.h:
-
-/usr/include/qt6/QtCore/qconfig.h:
-
-/usr/include/bits/struct_rwlock.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/qt6/QtCore/q20type_traits.h:
 
-/usr/include/c++/15.1.1/bits/refwrap.h:
+/usr/lib/libQt6Core.so.6.9.0:
 
-/usr/include/bits/mathcalls.h:
+/usr/include/c++/15.1.1/bits/stl_bvector.h:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/lib/libidn2.so.0:
+
+/usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
+
+/usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/15.1.1/bits/erase_if.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
+
+/usr/include/bits/sched.h:
+
+/usr/include/qt6/QtCore/qconfig.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/qt6/QtCore/qshareddata_impl.h:
+
+/usr/include/c++/15.1.1/bits/functexcept.h:
+
+/usr/include/c++/15.1.1/bits/stl_relops.h:
+
+/usr/include/qt6/QtCore/qtcoreexports.h:
+
+/usr/include/bits/local_lim.h:
 
 /usr/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
@@ -2900,8 +2965,6 @@ client/client_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/bits/ptr_traits.h:
 
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/client.cpp:
-
 /usr/include/c++/15.1.1/ctime:
 
 /usr/include/qt6/QtCore/qconstructormacros.h:
@@ -2916,12 +2979,6 @@ client/client_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qabstracteventdispatcher.h:
 
-/usr/include/c++/15.1.1/bits/basic_string.tcc:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake:
-
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake:
 
 /usr/include/bits/floatn.h:
@@ -2933,18 +2990,6 @@ client/client_autogen/moc_predefs.h:
 /usr/include/c++/15.1.1/bits/parse_numbers.h:
 
 /usr/include/c++/15.1.1/bits/unique_ptr.h:
-
-/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
-
-/usr/include/c++/15.1.1/backward/binders.h:
-
-/usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/15.1.1/bits/functional_hash.h:
-
-/usr/include/qt6/QtCore/q20utility.h:
-
-/usr/include/c++/15.1.1/bits/invoke.h:
 
 /usr/include/c++/15.1.1/bit:
 
@@ -2963,6 +3008,30 @@ client/client_autogen/moc_predefs.h:
 /usr/include/c++/15.1.1/bits/alloc_traits.h:
 
 /usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/c++/15.1.1/bits/basic_string.tcc:
+
+/usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake:
+
+/home/saloedus/Documents/GitHub/QT_prod/client/main.cpp:
+
+/home/saloedus/Documents/GitHub/QT_prod/client/include/client.h:
+
+/usr/include/c++/15.1.1/unordered_map:
+
+/usr/include/c++/15.1.1/bits/allocated_ptr.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/15.1.1/bits/shared_ptr.h:
+
+/usr/include/c++/15.1.1/bits/char_traits.h:
+
+/usr/include/qt6/QtCore/qatomic.h:
 
 /usr/include/c++/15.1.1/bits/memory_resource.h:
 
@@ -3008,6 +3077,8 @@ client/CMakeFiles/client.dir/main.cpp.o:
 
 /usr/include/bits/types/struct_sched_param.h:
 
+/usr/lib32/libpsl.so.5:
+
 /usr/include/c++/15.1.1/bits/enable_special_members.h:
 
 /usr/include/bits/time64.h:
@@ -3017,6 +3088,8 @@ client/CMakeFiles/client.dir/main.cpp.o:
 /usr/include/c++/15.1.1/bits/hashtable.h:
 
 /usr/include/c++/15.1.1/backward/auto_ptr.h:
+
+/usr/lib32/libffi.so.8:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -3062,6 +3135,8 @@ client/CMakeFiles/client.dir/main.cpp.o:
 
 /usr/include/qt6/QtCore/qarraydata.h:
 
+/usr/lib32/libnghttp3.so.9:
+
 /usr/include/qt6/QtCore/qarraydatapointer.h:
 
 /usr/include/c++/15.1.1/cwchar:
@@ -3073,8 +3148,6 @@ client/CMakeFiles/client.dir/main.cpp.o:
 /usr/include/c++/15.1.1/bits/hashtable_policy.h:
 
 /usr/include/qt6/QtCore/qbasicatomic.h:
-
-/usr/include/qt6/QtCore/qbindingstorage.h:
 
 /usr/include/qt6/QtCore/qbytearrayalgorithms.h:
 
@@ -3196,6 +3269,8 @@ client/CMakeFiles/client.dir/main.cpp.o:
 
 /usr/include/qt6/QtCore/qobject.h:
 
+/usr/lib32/libgmodule-2.0.so.0:
+
 /usr/include/limits.h:
 
 /usr/include/qt6/QtCore/qglobalstatic.h:
@@ -3205,8 +3280,6 @@ client/CMakeFiles/client.dir/main.cpp.o:
 /usr/include/qt6/QtCore/qobjectdefs_impl.h:
 
 /usr/include/qt6/QtCore/qpair.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/main.cpp:
 
 /usr/include/qt6/QtCore/qprocessordetection.h:
 
@@ -3231,6 +3304,8 @@ client/CMakeFiles/client.dir/main.cpp.o:
 /usr/include/qt6/QtCore/qstring.h:
 
 /usr/include/qt6/QtCore/qstringconverter.h:
+
+/home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h:
 
 /usr/include/qt6/QtCore/qstringfwd.h:
 
@@ -3295,6 +3370,8 @@ client/CMakeFiles/client.dir/main.cpp.o:
 /usr/include/qt6/QtCore/qtformat_impl.h:
 
 /usr/include/qt6/QtCore/qtimer.h:
+
+/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
 
 /usr/include/qt6/QtCore/qtnoop.h:
 
@@ -3428,10 +3505,6 @@ client/CMakeFiles/client.dir/main.cpp.o:
 
 /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
 
-/usr/include/qt6/QtCore/QObject:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
 /usr/include/bits/types/struct_timeval.h:
 
 /usr/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake:
@@ -3467,6 +3540,8 @@ client/CMakeFiles/client.dir/main.cpp.o:
 /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake:
+
+/usr/lib32/libgobject-2.0.so.0:
 
 /usr/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfigVersionImpl.cmake:
 

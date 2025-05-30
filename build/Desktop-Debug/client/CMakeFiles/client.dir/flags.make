@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_NETWORK_LIB
 
-CXX_INCLUDES = -I"/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/include" -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtNetwork
+CXX_INCLUDES = -I/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtNetwork
 
 CXX_FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -mno-direct-extern-access
 

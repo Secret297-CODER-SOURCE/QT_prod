@@ -2643,27 +2643,6 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
 			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake"
 		},
 		{
@@ -2703,27 +2682,6 @@
 		{
 			"isExternal" : true,
 			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QJp2PluginAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2832,27 +2790,6 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QMngPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
 			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake"
 		},
 		{
@@ -2937,48 +2874,6 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
 			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake"
 		},
 		{
@@ -3060,90 +2955,6 @@
 		{
 			"isExternal" : true,
 			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3627,8 +3438,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug",
-		"source" : "/home/Artem/Downloads/Telegram Desktop/semblance"
+		"build" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug",
+		"source" : "/home/saloedus/Documents/GitHub/QT_prod"
 	},
 	"version" : 
 	{

@@ -9,10 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "server/server_autogen/timestamp" "custom" "server/server_autogen/deps"
-  "/home/Artem/Downloads/Telegram Desktop/semblance/server/main.cpp" "server/CMakeFiles/server.dir/main.cpp.o" "gcc" "server/CMakeFiles/server.dir/main.cpp.o.d"
-  "/home/Artem/Downloads/Telegram Desktop/semblance/server/mainwindow.cpp" "server/CMakeFiles/server.dir/mainwindow.cpp.o" "gcc" "server/CMakeFiles/server.dir/mainwindow.cpp.o.d"
-  "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/server_autogen/mocs_compilation.cpp" "server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o" "gcc" "server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o.d"
-  "/home/Artem/Downloads/Telegram Desktop/semblance/server/src/server.cpp" "server/CMakeFiles/server.dir/src/server.cpp.o" "gcc" "server/CMakeFiles/server.dir/src/server.cpp.o.d"
+  "/home/saloedus/Documents/GitHub/QT_prod/server/main.cpp" "server/CMakeFiles/server.dir/main.cpp.o" "gcc" "server/CMakeFiles/server.dir/main.cpp.o.d"
+  "/home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.cpp" "server/CMakeFiles/server.dir/mainwindow.cpp.o" "gcc" "server/CMakeFiles/server.dir/mainwindow.cpp.o.d"
+  "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/server_autogen/mocs_compilation.cpp" "server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o" "gcc" "server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o.d"
+  "/home/saloedus/Documents/GitHub/QT_prod/server/src/server.cpp" "server/CMakeFiles/server.dir/src/server.cpp.o" "gcc" "server/CMakeFiles/server.dir/src/server.cpp.o.d"
   "" "server/server" "gcc" "server/CMakeFiles/server.dir/link.d"
   )
 

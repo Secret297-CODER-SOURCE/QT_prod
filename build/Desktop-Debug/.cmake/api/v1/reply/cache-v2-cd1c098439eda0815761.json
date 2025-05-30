@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1075,7 +1075,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -2115,7 +2115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1.10.0"
+			"value" : "1.9.2"
 		},
 		{
 			"name" : "PKG_XKB_xkbcommon_INCLUDEDIR",
@@ -7603,7 +7603,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client"
 		},
 		{
 			"name" : "client_IS_TOP_LEVEL",
@@ -7627,7 +7627,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance/client"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod/client"
 		},
 		{
 			"name" : "pkgcfg_lib_PKG_XKB_xkbcommon",
@@ -7667,7 +7667,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug"
 		},
 		{
 			"name" : "semblance_IS_TOP_LEVEL",
@@ -7691,7 +7691,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod"
 		},
 		{
 			"name" : "server_BINARY_DIR",
@@ -7703,7 +7703,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server"
 		},
 		{
 			"name" : "server_IS_TOP_LEVEL",
@@ -7727,7 +7727,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Artem/Downloads/Telegram Desktop/semblance/server"
+			"value" : "/home/saloedus/Documents/GitHub/QT_prod/server"
 		}
 	],
 	"kind" : "cache",

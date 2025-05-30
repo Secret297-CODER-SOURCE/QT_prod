@@ -1,7 +1,7 @@
 client/CMakeFiles/client.dir/src/systemInfo.cpp.o: \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/systemInfo.cpp \
+ /home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp \
  /usr/include/stdc-predef.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/../include/systemInfo.h \
+ /home/saloedus/Documents/GitHub/QT_prod/client/src/../include/systemInfo.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtCore/qchar.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/15.1.1/type_traits \

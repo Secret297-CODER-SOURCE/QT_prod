@@ -1,7 +1,7 @@
 client/CMakeFiles/client.dir/src/client.cpp.o: \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/client.cpp \
+ /home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp \
  /usr/include/stdc-predef.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/../include/client.h \
+ /home/saloedus/Documents/GitHub/QT_prod/client/src/../include/client.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \
@@ -337,4 +337,4 @@ client/CMakeFiles/client.dir/src/client.cpp.o: \
  /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtCore/QByteArray \
  /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/QSysInfo \
  /usr/include/qt6/QtCore/qsysinfo.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/../include/systemInfo.h
+ /home/saloedus/Documents/GitHub/QT_prod/client/src/../include/systemInfo.h

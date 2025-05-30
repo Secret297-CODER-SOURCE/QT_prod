@@ -1,6 +1,6 @@
-/home/Artem/Downloads/Telegram\ Desktop/semblance/build/Desktop-Debug/client/client_autogen/6YEA5652QU/moc_client.cpp: /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/build/Desktop-Debug/client/client_autogen/moc_predefs.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h \
+/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/6YEA5652QU/moc_client.cpp: /home/saloedus/Documents/GitHub/QT_prod/client/include/client.h \
+  /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/moc_predefs.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

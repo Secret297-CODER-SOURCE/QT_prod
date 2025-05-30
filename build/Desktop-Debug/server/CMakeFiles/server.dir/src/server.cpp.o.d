@@ -1,7 +1,7 @@
 server/CMakeFiles/server.dir/src/server.cpp.o: \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/server/src/server.cpp \
+ /home/saloedus/Documents/GitHub/QT_prod/server/src/server.cpp \
  /usr/include/stdc-predef.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/server/src/../include/server.h \
+ /home/saloedus/Documents/GitHub/QT_prod/server/src/../include/server.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \

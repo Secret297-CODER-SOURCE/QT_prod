@@ -3,12 +3,12 @@
 
 client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
   client/client_autogen/moc_predefs.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/CMakeLists.txt \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/main.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/client.cpp \
-  /home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/systemInfo.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/CMakeLists.txt \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/client.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h \
+  /home/saloedus/Documents/GitHub/QT_prod/client/main.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp \
+  /home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp \
   /usr/bin/cmake \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -562,8 +562,6 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
 
 /usr/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake:
 
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
 /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
 
 /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake:
@@ -649,6 +647,10 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
 /usr/include/qt6/QtCore/qtresource.h:
 
 /usr/include/qt6/QtCore/qtnoop.h:
+
+/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
+
+/usr/include/qt6/QtCore/qtmetamacros.h:
 
 /usr/include/qt6/QtCore/qtimer.h:
 
@@ -820,8 +822,6 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
 
 /usr/include/qt6/QtCore/qbytearrayalgorithms.h:
 
-/usr/include/qt6/QtCore/qbindingstorage.h:
-
 /usr/include/qt6/QtCore/qbasicatomic.h:
 
 /usr/include/qt6/QtCore/qassert.h:
@@ -908,6 +908,20 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
 
 /usr/include/c++/15.1.1/bits/basic_string.h:
 
+/usr/include/qt6/QtCore/qtconfiginclude.h:
+
+/usr/include/qt6/QtCore/qatomic.h:
+
+/usr/include/c++/15.1.1/bits/char_traits.h:
+
+/usr/include/c++/15.1.1/bits/shared_ptr.h:
+
+/usr/include/c++/15.1.1/bits/allocated_ptr.h:
+
+/usr/include/c++/15.1.1/unordered_map:
+
+/home/saloedus/Documents/GitHub/QT_prod/client/main.cpp:
+
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/c++/15.1.1/bits/alloc_traits.h:
@@ -921,16 +935,6 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
 /usr/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
 /usr/include/c++/15.1.1/bit:
-
-/usr/include/c++/15.1.1/bits/invoke.h:
-
-/usr/include/qt6/QtCore/q20utility.h:
-
-/usr/include/c++/15.1.1/bits/functional_hash.h:
-
-/usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/15.1.1/backward/binders.h:
 
 /usr/include/c++/15.1.1/bits/unique_ptr.h:
 
@@ -982,7 +986,45 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
 
 /usr/include/c++/15.1.1/clocale:
 
-/usr/include/c++/15.1.1/bits/refwrap.h:
+/usr/include/c++/15.1.1/bits/postypes.h:
+
+/usr/include/c++/15.1.1/bits/basic_string.tcc:
+
+/usr/include/qt6/QtCore/qtcoreexports.h:
+
+/usr/include/c++/15.1.1/bits/functexcept.h:
+
+/usr/include/c++/15.1.1/bits/locale_classes.tcc:
+
+/usr/include/qt6/QtCore/qshareddata_impl.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
+
+/usr/include/c++/15.1.1/bits/erase_if.h:
+
+/usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h:
+
+/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/c++/15.1.1/bits/atomic_base.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/cpu-set.h:
+
+/home/saloedus/Documents/GitHub/QT_prod/client/include/client.h:
+
+/usr/include/c++/15.1.1/bits/stl_bvector.h:
 
 /usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake:
 
@@ -998,29 +1040,21 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
 
 /usr/include/c++/15.1.1/exception:
 
-/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
+/usr/include/qt6/QtCore/qbindingstorage.h:
 
-/usr/include/bits/types/mbstate_t.h:
+/home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h:
 
-/usr/include/qt6/QtCore/qstdlibdetection.h:
+/usr/include/bits/struct_mutex.h:
 
-/usr/include/c++/15.1.1/bits/requires_hosted.h:
+/usr/include/qt6/QtCore/qbytearray.h:
 
-/usr/include/c++/15.1.1/bits/exception.h:
-
-/usr/include/bits/errno.h:
+/usr/include/assert.h:
 
 /usr/include/bits/timex.h:
 
 /usr/include/c++/15.1.1/limits:
 
 /usr/include/bits/locale.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/qt6/QtCore/qbytearray.h:
-
-/usr/include/assert.h:
 
 /usr/include/c++/15.1.1/bits/new_allocator.h:
 
@@ -1052,96 +1086,6 @@ client/client_autogen/timestamp: .qtc/package-manager/auto-setup.cmake \
 
 /usr/include/bits/types/__sigset_t.h:
 
-/usr/include/asm/types.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/qt6/QtCore/qtconfiginclude.h:
-
-/usr/include/qt6/QtCore/qatomic.h:
-
-/usr/include/c++/15.1.1/bits/char_traits.h:
-
-/usr/include/c++/15.1.1/bits/shared_ptr.h:
-
-/usr/include/c++/15.1.1/bits/allocated_ptr.h:
-
-/usr/include/c++/15.1.1/unordered_map:
-
-/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
-
-/usr/include/qt6/QtCore/qtmetamacros.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/CMakeLists.txt:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/c++/15.1.1/bits/stl_bvector.h:
-
-/usr/include/c++/15.1.1/bits/stl_function.h:
-
-/usr/include/gnu/stubs.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/systemInfo.cpp:
-
-/usr/include/bits/struct_mutex.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h:
-
-client/client_autogen/moc_predefs.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/c++/15.1.1/bits/ios_base.h:
-
-/usr/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
-
-/usr/include/c++/15.1.1/cassert:
-
-/usr/include/c++/15.1.1/bits/basic_string.tcc:
-
-/usr/include/c++/15.1.1/bits/postypes.h:
-
-/usr/include/qt6/QtCore/qtcoreexports.h:
-
-/usr/include/c++/15.1.1/bits/functexcept.h:
-
-/usr/include/bits/setjmp.h:
-
-/usr/include/c++/15.1.1/bits/node_handle.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h:
-
-/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/c++/15.1.1/debug/debug.h:
-
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
-
-/usr/include/qt6/QtCore/qconfig.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h:
-
-/usr/include/c++/15.1.1/bits/stl_numeric.h:
-
-/usr/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake:
-
-/usr/include/c++/15.1.1/bits/atomic_base.h:
-
-/usr/include/bits/libc-header-start.h:
-
 /usr/share/cmake/Modules/FindThreads.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake:
@@ -1149,6 +1093,16 @@ client/client_autogen/moc_predefs.h:
 .qtc/package-manager/auto-setup.cmake:
 
 /usr/include/c++/15.1.1/iterator:
+
+/usr/include/qt6/QtCore/qminmax.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/c++/15.1.1/bits/std_function.h:
+
+/usr/include/qt6/QtCore/qanystringview.h:
+
+/usr/include/c++/15.1.1/iosfwd:
 
 /usr/include/qt6/QtNetwork/qtnetworkexports.h:
 
@@ -1166,39 +1120,71 @@ client/client_autogen/moc_predefs.h:
 
 /usr/include/bits/types/error_t.h:
 
-/usr/include/qt6/QtCore/qminmax.h:
+/usr/include/asm/types.h:
 
-/usr/include/bits/timesize.h:
+/usr/include/bits/types/struct_FILE.h:
 
-/usr/include/c++/15.1.1/bits/std_function.h:
+/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
 
-/usr/include/qt6/QtCore/qanystringview.h:
+/usr/include/qt6/QtCore/qconfig.h:
 
-/usr/include/c++/15.1.1/iosfwd:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/15.1.1/bits/locale_classes.tcc:
+/usr/include/c++/15.1.1/bits/node_handle.h:
 
-/usr/include/qt6/QtCore/qshareddata_impl.h:
+/usr/include/asm-generic/errno.h:
 
-/usr/include/bits/floatn-common.h:
+/usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h:
 
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
+/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
-/usr/include/c++/15.1.1/bits/erase_if.h:
+/usr/include/bits/types/clock_t.h:
 
-/usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/15.1.1/debug/debug.h:
 
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/src/client.cpp:
+/usr/include/bits/endianness.h:
 
-/usr/lib/cmake/Qt6/Qt6Targets.cmake:
+/usr/include/c++/15.1.1/bits/invoke.h:
 
-/usr/include/qt6/QtCore/qbytearrayview.h:
+/usr/include/qt6/QtCore/q20utility.h:
 
-/usr/include/c++/15.1.1/ext/aligned_buffer.h:
+/usr/include/c++/15.1.1/bits/functional_hash.h:
 
-/usr/include/c++/15.1.1/bits/cxxabi_forced.h:
+/usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
 
-/usr/include/bits/types/time_t.h:
+/usr/include/c++/15.1.1/backward/binders.h:
+
+/usr/include/c++/15.1.1/bits/refwrap.h:
+
+/home/saloedus/Documents/GitHub/QT_prod/client/CMakeLists.txt:
+
+/usr/include/qt6/QtCore/qstdlibdetection.h:
+
+/usr/include/c++/15.1.1/bits/exception.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/c++/15.1.1/bits/requires_hosted.h:
+
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
+
+/home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp:
+
+/usr/include/c++/15.1.1/tr1/ell_integral.tcc:
+
+client/client_autogen/moc_predefs.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/15.1.1/bits/ios_base.h:
+
+/usr/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
+
+/usr/include/c++/15.1.1/cassert:
+
+/usr/include/bits/setjmp.h:
 
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
@@ -1212,9 +1198,15 @@ client/client_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/array:
 
+/usr/include/c++/15.1.1/bits/stl_function.h:
+
+/usr/include/gnu/stubs.h:
+
 /usr/include/bits/pthreadtypes.h:
 
 /usr/include/qt6/QtCore/qxptype_traits.h:
+
+/home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp:
 
 /usr/include/asm-generic/int-ll64.h:
 
@@ -1254,15 +1246,21 @@ client/client_autogen/moc_predefs.h:
 
 /usr/include/features.h:
 
-/usr/include/c++/15.1.1/ext/numeric_traits.h:
-
 /usr/include/bits/sched.h:
+
+/usr/include/c++/15.1.1/ext/numeric_traits.h:
 
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/c++/15.1.1/bits/uses_allocator_args.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/c++/15.1.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/15.1.1/bits/stl_numeric.h:
 
 /usr/include/bits/types/clockid_t.h:
 
@@ -1410,6 +1408,12 @@ client/client_autogen/moc_predefs.h:
 
 /usr/include/c++/15.1.1/ratio:
 
+/usr/lib/cmake/Qt6/Qt6Targets.cmake:
+
+/usr/include/qt6/QtCore/qbytearrayview.h:
+
+/usr/include/c++/15.1.1/ext/aligned_buffer.h:
+
 /usr/include/c++/15.1.1/ext/alloc_traits.h:
 
 /usr/include/c++/15.1.1/map:
@@ -1419,8 +1423,6 @@ client/client_autogen/moc_predefs.h:
 /usr/include/c++/15.1.1/ext/type_traits.h:
 
 /usr/include/c++/15.1.1/functional:
-
-/home/Artem/Downloads/Telegram\ Desktop/semblance/client/main.cpp:
 
 /usr/include/c++/15.1.1/initializer_list:
 
@@ -1467,8 +1469,6 @@ client/client_autogen/moc_predefs.h:
 /usr/include/bits/types/__fpos_t.h:
 
 /usr/include/c++/15.1.1/tr1/beta_function.tcc:
-
-/usr/include/c++/15.1.1/tr1/ell_integral.tcc:
 
 /usr/include/c++/15.1.1/tr1/exp_integral.tcc:
 

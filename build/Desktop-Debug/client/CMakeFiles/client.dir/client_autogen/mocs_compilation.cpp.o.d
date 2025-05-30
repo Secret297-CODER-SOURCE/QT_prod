@@ -1,8 +1,8 @@
 client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp \
+ /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/build/Desktop-Debug/client/client_autogen/6YEA5652QU/moc_client.cpp \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/build/Desktop-Debug/client/client_autogen/6YEA5652QU/../../../../../client/include/client.h \
+ /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/6YEA5652QU/moc_client.cpp \
+ /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/6YEA5652QU/../../../../../client/include/client.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \
@@ -338,7 +338,7 @@ client/CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtCore/QByteArray \
  /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/QSysInfo \
  /usr/include/qt6/QtCore/qsysinfo.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/build/Desktop-Debug/client/client_autogen/6YEA5652QU/../../../../../client/include/systemInfo.h \
+ /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/6YEA5652QU/../../../../../client/include/systemInfo.h \
  /usr/include/qt6/QtCore/qtmochelpers.h \
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h \

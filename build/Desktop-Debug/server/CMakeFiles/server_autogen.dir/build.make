@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/Artem/Downloads/Telegram Desktop/semblance"
+CMAKE_SOURCE_DIR = /home/saloedus/Documents/GitHub/QT_prod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug"
+CMAKE_BINARY_DIR = /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug
 
 # Utility rule file for server_autogen.
 
@@ -71,9 +71,9 @@ server/CMakeFiles/server_autogen: server/server_autogen/timestamp
 server/server_autogen/timestamp: /usr/lib/qt6/moc
 server/server_autogen/timestamp: /usr/lib/qt6/uic
 server/server_autogen/timestamp: server/CMakeFiles/server_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target server"
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server" && /usr/bin/cmake -E cmake_autogen "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/CMakeFiles/server_autogen.dir/AutogenInfo.json" Debug
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server" && /usr/bin/cmake -E touch "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/server_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target server"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server && /usr/bin/cmake -E cmake_autogen /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/CMakeFiles/server_autogen.dir/AutogenInfo.json Debug
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server && /usr/bin/cmake -E touch /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/server_autogen/timestamp
 
 server/CMakeFiles/server_autogen.dir/codegen:
 .PHONY : server/CMakeFiles/server_autogen.dir/codegen
@@ -88,10 +88,10 @@ server/CMakeFiles/server_autogen.dir/build: server_autogen
 .PHONY : server/CMakeFiles/server_autogen.dir/build
 
 server/CMakeFiles/server_autogen.dir/clean:
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server" && $(CMAKE_COMMAND) -P CMakeFiles/server_autogen.dir/cmake_clean.cmake
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server && $(CMAKE_COMMAND) -P CMakeFiles/server_autogen.dir/cmake_clean.cmake
 .PHONY : server/CMakeFiles/server_autogen.dir/clean
 
 server/CMakeFiles/server_autogen.dir/depend:
-	cd "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/Artem/Downloads/Telegram Desktop/semblance" "/home/Artem/Downloads/Telegram Desktop/semblance/server" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server" "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/CMakeFiles/server_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saloedus/Documents/GitHub/QT_prod /home/saloedus/Documents/GitHub/QT_prod/server /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server /home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/CMakeFiles/server_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : server/CMakeFiles/server_autogen.dir/depend
 

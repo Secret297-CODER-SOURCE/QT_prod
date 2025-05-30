@@ -1,13 +1,13 @@
 {
-	"BUILD_DIR" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen",
-	"CMAKE_BINARY_DIR" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/Artem/Downloads/Telegram Desktop/semblance/client",
+	"BUILD_DIR" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen",
+	"CMAKE_BINARY_DIR" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/saloedus/Documents/GitHub/QT_prod/client",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/Artem/Downloads/Telegram Desktop/semblance/client/CMakeLists.txt",
-		"/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake",
+		"/home/saloedus/Documents/GitHub/QT_prod/client/CMakeLists.txt",
+		"/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake",
 		"/usr/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/usr/lib/cmake/Qt6/Qt6Config.cmake",
@@ -219,28 +219,28 @@
 		"/usr/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/Artem/Downloads/Telegram Desktop/semblance",
+	"CMAKE_SOURCE_DIR" : "/home/saloedus/Documents/GitHub/QT_prod",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/deps",
+	"DEP_FILE" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "client_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/Artem/Downloads/Telegram Desktop/semblance/client/include/client.h",
+			"/home/saloedus/Documents/GitHub/QT_prod/client/include/client.h",
 			"MU",
 			"6YEA5652QU/moc_client.cpp",
 			null
 		],
 		[
-			"/home/Artem/Downloads/Telegram Desktop/semblance/client/include/systemInfo.h",
+			"/home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h",
 			"MU",
 			"6YEA5652QU/moc_systemInfo.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_NETWORK_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -283,31 +283,27 @@
 		"-E",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/client_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/client_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/CMakeFiles/client_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/CMakeFiles/client_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/CMakeFiles/client_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/CMakeFiles/client_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/saloedus/Documents/GitHub/QT_prod/client/main.cpp", "MU", null ],
 		[
-			"/home/Artem/Downloads/Telegram Desktop/semblance/client/main.cpp",
+			"/home/saloedus/Documents/GitHub/QT_prod/client/src/client.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/Artem/Downloads/Telegram Desktop/semblance/client/src/client.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/Artem/Downloads/Telegram Desktop/semblance/client/src/systemInfo.cpp",
+			"/home/saloedus/Documents/GitHub/QT_prod/client/src/systemInfo.cpp",
 			"MU",
 			null
 		]

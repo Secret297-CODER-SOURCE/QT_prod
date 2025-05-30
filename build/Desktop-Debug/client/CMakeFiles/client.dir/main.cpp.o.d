@@ -1,5 +1,5 @@
 client/CMakeFiles/client.dir/main.cpp.o: \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/client/main.cpp \
+ /home/saloedus/Documents/GitHub/QT_prod/client/main.cpp \
  /usr/include/stdc-predef.h /usr/include/qt6/QtCore/QCoreApplication \
  /usr/include/qt6/QtCore/qcoreapplication.h \
  /usr/include/qt6/QtCore/qglobal.h /usr/include/c++/15.1.1/type_traits \
@@ -306,7 +306,7 @@ client/CMakeFiles/client.dir/main.cpp.o: \
  /usr/include/qt6/QtCore/qnativeinterface.h \
  /usr/include/qt6/QtCore/qcoreapplication_platform.h \
  /usr/include/qt6/QtCore/qcoreapplication.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/client.h \
+ /home/saloedus/Documents/GitHub/QT_prod/client/include/client.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtCore/QTimer /usr/include/qt6/QtCore/qtimer.h \
@@ -342,4 +342,4 @@ client/CMakeFiles/client.dir/main.cpp.o: \
  /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtCore/QByteArray \
  /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/QSysInfo \
  /usr/include/qt6/QtCore/qsysinfo.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/client/include/systemInfo.h
+ /home/saloedus/Documents/GitHub/QT_prod/client/include/systemInfo.h

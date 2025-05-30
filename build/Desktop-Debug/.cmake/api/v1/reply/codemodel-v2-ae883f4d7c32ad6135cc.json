@@ -106,7 +106,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "client::@b0c487aac068df482bf0",
-					"jsonFile" : "target-client-Debug-edfc465b67140982089b.json",
+					"jsonFile" : "target-client-Debug-8c8a72fb38cacbbb995d.json",
 					"name" : "client",
 					"projectIndex" : 1
 				},
@@ -127,7 +127,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "server::@d19778d2e34a1e3ddfc0",
-					"jsonFile" : "target-server-Debug-a3e8755b394aa3de494b.json",
+					"jsonFile" : "target-server-Debug-dd70acc279af5a372144.json",
 					"name" : "server",
 					"projectIndex" : 2
 				},
@@ -151,8 +151,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug",
-		"source" : "/home/Artem/Downloads/Telegram Desktop/semblance"
+		"build" : "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug",
+		"source" : "/home/saloedus/Documents/GitHub/QT_prod"
 	},
 	"version" : 
 	{

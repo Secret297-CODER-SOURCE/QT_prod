@@ -1,4 +1,4 @@
-# Install script for directory: /home/Artem/Downloads/Telegram Desktop/semblance
+# Install script for directory: /home/saloedus/Documents/GitHub/QT_prod
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,18 +44,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/client/cmake_install.cmake")
+  include("/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/client/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/server/cmake_install.cmake")
+  include("/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/server/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/install_local_manifest.txt"
+  file(WRITE "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -71,6 +71,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/Artem/Downloads/Telegram Desktop/semblance/build/Desktop-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/saloedus/Documents/GitHub/QT_prod/build/Desktop-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

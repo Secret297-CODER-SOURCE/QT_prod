@@ -1,7 +1,7 @@
 server/CMakeFiles/server.dir/main.cpp.o: \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/server/main.cpp \
+ /home/saloedus/Documents/GitHub/QT_prod/server/main.cpp \
  /usr/include/stdc-predef.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/server/mainwindow.h \
+ /home/saloedus/Documents/GitHub/QT_prod/server/mainwindow.h \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -344,19 +344,6 @@ server/CMakeFiles/server.dir/main.cpp.o: \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
  /usr/include/qt6/QtWidgets/qtabwidget.h \
- /home/Artem/Downloads/Telegram\ Desktop/semblance/server/include/server.h \
- /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
- /usr/include/qt6/QtNetwork/QTcpServer \
- /usr/include/qt6/QtNetwork/qtcpserver.h \
- /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
- /usr/include/qt6/QtNetwork/qtnetwork-config.h \
- /usr/include/qt6/QtNetwork/qtnetworkexports.h \
- /usr/include/qt6/QtNetwork/qabstractsocket.h \
- /usr/include/qt6/QtCore/qiodevice.h \
- /usr/include/qt6/QtNetwork/qhostaddress.h \
- /usr/include/qt6/QtNetwork/QTcpSocket \
- /usr/include/qt6/QtNetwork/qtcpsocket.h \
- /usr/include/qt6/QtCore/QByteArray /usr/include/qt6/QtCore/qbytearray.h \
  /usr/include/qt6/QtWidgets/QApplication \
  /usr/include/qt6/QtWidgets/qapplication.h \
  /usr/include/qt6/QtCore/qcoreapplication.h \
@@ -370,4 +357,32 @@ server/CMakeFiles/server.dir/main.cpp.o: \
  /usr/include/qt6/QtCore/qcoreapplication_platform.h \
  /usr/include/qt6/QtGui/qguiapplication.h \
  /usr/include/qt6/QtGui/qinputmethod.h /usr/include/qt6/QtCore/qlocale.h \
- /usr/include/qt6/QtGui/qguiapplication_platform.h
+ /usr/include/qt6/QtGui/qguiapplication_platform.h \
+ /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
+ /usr/include/qt6/QtWidgets/QStackedWidget \
+ /usr/include/qt6/QtWidgets/qstackedwidget.h \
+ /usr/include/qt6/QtWidgets/qframe.h \
+ /usr/include/qt6/QtWidgets/QVBoxLayout \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qlayout.h \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/qt6/QtWidgets/QPushButton \
+ /usr/include/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/qt6/QtWidgets/qabstractbutton.h \
+ /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
+ /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtCore/qiodevice.h \
+ /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
+ /home/saloedus/Documents/GitHub/QT_prod/server/include/server.h \
+ /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
+ /usr/include/qt6/QtNetwork/QTcpServer \
+ /usr/include/qt6/QtNetwork/qtcpserver.h \
+ /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
+ /usr/include/qt6/QtNetwork/qtnetwork-config.h \
+ /usr/include/qt6/QtNetwork/qtnetworkexports.h \
+ /usr/include/qt6/QtNetwork/qabstractsocket.h \
+ /usr/include/qt6/QtNetwork/qhostaddress.h \
+ /usr/include/qt6/QtNetwork/QTcpSocket \
+ /usr/include/qt6/QtNetwork/qtcpsocket.h \
+ /usr/include/qt6/QtCore/QByteArray /usr/include/qt6/QtCore/qbytearray.h
