@@ -12,6 +12,8 @@ class Server : public QTcpServer
 public:
     explicit Server(QObject* parent = nullptr);
     ~Server();
+    QList<QTcpSocket*> clients() const;
+
 
     int start();
     void set_port(quint16 port);

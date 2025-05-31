@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
+    w.setServer(&server);
     w.show();
     return a.exec();
 }

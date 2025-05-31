@@ -117,6 +117,16 @@
      <string>info</string>
     </property>
    </widget>
+   <widget class="QListWidget" name="clientListWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>

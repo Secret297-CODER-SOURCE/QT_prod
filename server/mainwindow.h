@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "include/server.h"
+#include <QTimer>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,8 +19,14 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void setServer(Server* srv);
+
+private slots:
+    void on_push();
 
 private:
     Ui::MainWindow *ui;
+    Server* server;
+    void updateClientList();
 };
 #endif // MAINWINDOW_H

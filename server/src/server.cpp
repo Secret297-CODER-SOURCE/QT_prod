@@ -10,6 +10,12 @@ Server::~Server()
     qDebug() << "server delete";
 }
 
+QList<QTcpSocket*> Server::clients() const
+{
+    return m_clients;
+}
+
+
 void Server::set_port(quint16 port)
 {
     this->m_port = port;
