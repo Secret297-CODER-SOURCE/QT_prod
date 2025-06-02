@@ -59,9 +59,6 @@ void Server::on_new_connection()
 void Server::on_client_message()
 {
     QTcpSocket* client = qobject_cast<QTcpSocket*>(sender());
-    if (!client) {
-        return;
-    }
 
     QByteArray data = client->readAll();
     QString message = QString::fromUtf8(data);
