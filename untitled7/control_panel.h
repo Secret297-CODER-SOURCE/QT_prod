@@ -16,4 +16,7 @@ public:
 
     QTextEdit* text;
     QLabel* showText;
+
+
+
 };

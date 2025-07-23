@@ -34,3 +34,4 @@ ControlPanel::ControlPanel(QWidget *parent)
     layout->addWidget(dummyButton3);
     layout->addWidget(dummyButton4);
 }
+
